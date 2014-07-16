@@ -9,11 +9,11 @@ sleep 10
 echo "Stopped Tomcat"
 
 echo "Restoring database.."
-psql -U postgres -c "drop database dhis2"
+sudo -u postgres psql -c "drop database dhis2"
 echo "Dropped database"
-psql -U postgres -c "create database dhis2 with owner lmis encoding 'utf-8'"
+sudo -u postgres psql -c "create database dhis2 with owner lmis encoding 'utf-8'"
 echo "Created database"
-psql -d dhis2 -U postgres -f dhis2-lmis.sql
+sudo -u postgres psql -d dhis2 -f dhis2-lmis.sql
 echo "Restored database"
 
 echo "Starting tomcat, system will be up in 60s.."
