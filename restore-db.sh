@@ -8,6 +8,8 @@ echo "Stopping Tomcat.."
 sleep 10
 echo "Stopped Tomcat"
 
+echo "Create lmis db user if not exist"
+sudo -u postgres psql -c "create user lmis"
 echo "Restoring database.."
 sudo -u postgres psql -c "drop database dhis2"
 echo "Dropped database"
