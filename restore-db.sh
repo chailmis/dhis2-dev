@@ -19,4 +19,4 @@ sudo -u postgres psql -d dhis2 -f dhis2-lmis.sql
 echo "Restored database"
 
 echo "Starting tomcat, system will be up in 60s.."
-./dhis2-server/bin/startup.sh
+./start
