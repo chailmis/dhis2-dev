@@ -2,7 +2,8 @@
 export DHIS2_HOME='./dhis2-home'
 echo "Using DHIS2_HOME: $DHIS2_HOME"
 
-export JAVA_OPTS='-Xmx1300m -Xms1200m -XX:MaxPermSize=400m -XX:PermSize=300m'
+# export JAVA_OPTS='-Xmx1300m -Xms1200m -XX:MaxPermSize=400m -XX:PermSize=300m'
+export JAVA_OPTS='-Xmx1000m -XX:MaxPermSize=200m'
 echo "Using JAVA_OPTS: $JAVA_OPTS"
 
 ./dhis2-server/bin/startup.sh && tail -f ./dhis2-server/logs/catalina.out
