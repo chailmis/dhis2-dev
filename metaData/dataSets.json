@@ -1,0 +1,90 @@
+{"created": "2014-07-23T11:55:57.262+0000", "dataSets": [
+    {
+        "name": "LMIS_Commodities",
+        "created": "2014-07-23T11:29:08.393+0000",
+        "lastUpdated": "2014-07-23T11:54:26.807+0000",
+        "shortName": "LMIS_Commodities",
+        "periodType": "Daily",
+        "dataElements": [
+            {
+                "name": "Paracetamol_Injection_100",
+                "created": "2014-07-21T16:31:45.500+0000",
+                "lastUpdated": "2014-07-23T11:27:27.838+0000",
+                "id": "gE5L6iZoOdh"
+            },
+            {
+                "name": "Paracetamol_Drops_15ml",
+                "created": "2014-07-21T16:30:31.134+0000",
+                "lastUpdated": "2014-07-23T11:27:27.799+0000",
+                "id": "UsGPFP9trEy"
+            },
+            {
+                "name": "Paracetamol_125g Tablet",
+                "created": "2014-07-21T16:27:33.437+0000",
+                "lastUpdated": "2014-07-23T11:27:27.756+0000",
+                "id": "KrLsteV6xtE"
+            },
+            {
+                "name": "Paracetamol_Suspension_50ml",
+                "created": "2014-07-21T16:32:54.971+0000",
+                "lastUpdated": "2014-07-23T11:27:27.876+0000",
+                "id": "F9qUA1cPNlS"
+            }
+        ],
+        "categoryCombo": {
+            "name": "default",
+            "created": "2012-02-18T01:29:41.196+0000",
+            "lastUpdated": "2014-07-23T11:27:07.199+0000",
+            "id": "o9o4xFd6KEm"
+        },
+        "mobile": false,
+        "version": 1,
+        "expiryDays": 0,
+        "timelyDays": 15,
+        "skipAggregation": false,
+        "notifyCompletingUser": false,
+        "approveData": false,
+        "allowFuturePeriods": false,
+        "fieldCombinationRequired": false,
+        "validCompleteOnly": false,
+        "noValueRequiresComment": false,
+        "skipOffline": false,
+        "dataElementDecoration": false,
+        "renderAsTabs": false,
+        "renderHorizontally": false,
+        "legendSet": null,
+        "id": "tTxJRBbH4CO",
+        "organisationUnits": [
+            {
+                "name": "ba Alkaleri General Hospital",
+                "created": "2014-07-23T09:22:31.148+0000",
+                "lastUpdated": "2014-07-23T11:27:52.018+0000",
+                "id": "GUi74ra8SQd"
+            },
+            {
+                "name": "ab Ivory Hospital",
+                "created": "2014-07-23T09:19:02.401+0000",
+                "lastUpdated": "2014-07-23T11:27:51.987+0000",
+                "id": "SAj4u4BDlRM"
+            },
+            {
+                "name": "ba Alkaleri Maternal and Child Health Clinic",
+                "created": "2014-07-23T09:22:56.256+0000",
+                "lastUpdated": "2014-07-23T11:27:52.032+0000",
+                "id": "ZY1byAKtDnU"
+            },
+            {
+                "name": "ab Goodness& Mercy",
+                "created": "2014-07-23T09:18:19.054+0000",
+                "lastUpdated": "2014-07-23T11:27:51.975+0000",
+                "id": "atgIJsYdgw5"
+            },
+            {
+                "name": "ba Alkaleri Dispensary",
+                "created": "2014-07-23T09:22:03.867+0000",
+                "lastUpdated": "2014-07-23T11:27:52.004+0000",
+                "id": "CIssCjodb5S"
+            }
+        ]
+    }
+]}
