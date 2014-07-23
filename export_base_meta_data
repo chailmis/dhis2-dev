@@ -35,9 +35,19 @@ curl -H "Accept: application/json" -u $1:$2 "$3/api/metaData?assumeTrue=false\
 &userRoles=true\
 &validationRuleGroups=true\
 &validationRules=true\
+&indicatorGroupSets=true\
+&indicatorGroups=true\
+&indicatorTypes=true\
+&indicatorTypes=true\
+&indicators=true\
 " > ./metaData/baseMetaData.json
 
-## Don't try to export all Nigeria organisationUnits...it's very very large
+## Don't try to export all Nigeria organisationUnits/dataSets...it's very very large
+
 #curl -H "Accept: application/json" -u $1:$2 "$3/api/metaData?assumeTrue=false\
 #&organisationUnits=true\
 #" > ./metaData/organisationUnits.json
+
+#curl -H "Accept: application/json" -u $1:$2 "$3/api/metaData?assumeTrue=false\
+#&dataSets=true\
+#" > ./metaData/dataSets.json

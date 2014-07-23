@@ -1,4 +1,4 @@
-{"created": "2014-07-23T11:02:40.703+0000", "userRoles": [
+{"created": "2014-07-23T11:21:51.690+0000", "userRoles": [
     {
         "name": "FMOH_ADMIN",
         "created": "2013-03-05T17:47:17.860+0000",
@@ -45282,6 +45282,3452 @@
                 "id": "KyxjbJHaHsr"
             }
         ]
+    }
+], "indicators": [
+    {
+        "name": "X_Attendance 5 - 14 years - total",
+        "created": "2012-10-08T07:51:57.404+0000",
+        "lastUpdated": "2013-05-03T13:50:16.351+0000",
+        "shortName": "Attendance 5 - 14 years -",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{yJ0o089gCVI.Y2SrnZVI87k}+#{HUpgIQkW0gF.Y2SrnZVI87k}",
+        "numeratorDescription": "Attendance 5 - 14 years - total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "u31sWX0nmWS"
+    },
+    {
+        "name": "X_Diarrhoea under 5 years - new case",
+        "created": "2012-10-08T07:51:57.362+0000",
+        "lastUpdated": "2013-05-03T13:54:17.318+0000",
+        "shortName": "Diarrhoea under 5 years n",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{qYiwp27da7e.Y2SrnZVI87k}+#{EytezD9vaHh.Y2SrnZVI87k}",
+        "numeratorDescription": "Diarrhoea under 5 years - new case",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "IaBaG0F7I8I"
+    },
+    {
+        "name": "X_Still birth",
+        "created": "2012-10-08T07:51:57.471+0000",
+        "lastUpdated": "2013-05-03T14:02:51.281+0000",
+        "shortName": "Still birth",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{nzBALNgSY9j.Y2SrnZVI87k}+#{h7Sc9XyNwvA.Y2SrnZVI87k}",
+        "numeratorDescription": "Still birth",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "q6PWy7MtniI"
+    },
+    {
+        "name": "Antenatal Care Coverage( 4 Visits)",
+        "created": "2013-05-21T14:50:05.188+0000",
+        "lastUpdated": "2013-05-21T14:50:05.239+0000",
+        "shortName": "Antenatal Care Coverage( 4 Visits)",
+        "annualized": true,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{VSVJb5lWp70.Y2SrnZVI87k}",
+        "numeratorDescription": "4th Antenatal Visit",
+        "denominator": "#{JiqRpGPcjXz.Y2SrnZVI87k}*0.05",
+        "denominatorDescription": "Population of Pregnant Women",
+        "url": "",
+        "legendSet": null,
+        "id": "NO1ASEzyurW"
+    },
+    {
+        "name": "X_Facility Attendance < 5 years (total)",
+        "created": "2012-12-18T17:26:14.605+0000",
+        "lastUpdated": "2013-05-03T13:55:21.039+0000",
+        "shortName": "Facility Attendance <5y (total)",
+        "description": "Total of data collected through 2010 and 2013 forms.",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{CzjZY6Gdoif.Y2SrnZVI87k}+#{seFR8lAaoiW.Y2SrnZVI87k}+#{j30HEsxYK65.Y2SrnZVI87k}+#{Te2VX5hAHnc.Y2SrnZVI87k}+#{ktEF9knHQzr.Y2SrnZVI87k}+#{s5z5okh4aE9.Y2SrnZVI87k}+#{Jc1WjNKrObY.y89wa2aI18G}+#{Jc1WjNKrObY.EeOmMSob3uj}+#{Jc1WjNKrObY.CyyxhwJfSMe}+#{Jc1WjNKrObY.thjAejMEOxw}+#{Jc1WjNKrObY.PCcBygZah1M}+#{Jc1WjNKrObY.R2LOEyK3TtS}",
+        "numeratorDescription": "Total facility attendance under 5 years (2010+2013 forms)",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "zEwYwNjupTr"
+    },
+    {
+        "name": "X_Individuals >= 5 years with uncomplicated malaria receiving ACT- total",
+        "created": "2012-10-08T07:51:57.438+0000",
+        "lastUpdated": "2013-05-03T13:57:29.008+0000",
+        "shortName": "Individual >= 5 years act",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{QglbXvycwa3.Y2SrnZVI87k}+#{JOeBWDoEy82.Y2SrnZVI87k}",
+        "numeratorDescription": "Individuals >= 5 years with uncomplicated malaria receiving ACT- total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "jj2Q8y3ZK5K"
+    },
+    {
+        "name": "X_Cholera - new case",
+        "created": "2012-10-08T07:51:57.367+0000",
+        "lastUpdated": "2013-05-03T13:52:31.446+0000",
+        "shortName": "Cholera - new case",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{jawPnn10EEk.Y2SrnZVI87k}+#{hdOxXltXbeb.Y2SrnZVI87k}",
+        "numeratorDescription": "Cholera - new case",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "D8vO5hhah7B"
+    },
+    {
+        "name": "X_Pneumonia under 5 years - new case",
+        "created": "2012-10-08T07:51:57.363+0000",
+        "lastUpdated": "2013-05-03T14:02:40.775+0000",
+        "shortName": "Pneumonia under 5 years ",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{JrWkLvKWmkh.Y2SrnZVI87k}+#{gB8phqHEplf.Y2SrnZVI87k}",
+        "numeratorDescription": "Pneumonia under 5 years - new case",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "x4dV23esrSy"
+    },
+    {
+        "name": "X_Poliomyelitis - suspected case",
+        "created": "2012-10-08T07:51:57.380+0000",
+        "lastUpdated": "2013-05-03T14:03:04.453+0000",
+        "shortName": "Poliomyelitis - suspected",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{QtON3fuzzD0.Y2SrnZVI87k}+#{aplWZKrT1PQ.Y2SrnZVI87k}",
+        "numeratorDescription": "Poliomyelitis - suspected case",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "dgH4plVMrn3"
+    },
+    {
+        "name": "Antenatal Care Coverage( 1 Visit)",
+        "created": "2013-03-28T18:12:27.961+0000",
+        "lastUpdated": "2013-05-21T14:47:22.364+0000",
+        "shortName": "ANC Coverage",
+        "annualized": true,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{PV88LZCbiSF.Y2SrnZVI87k}+#{OZH9GfZqZ7q.Y2SrnZVI87k}",
+        "numeratorDescription": "Antenatal 1st Visits",
+        "denominator": "#{JiqRpGPcjXz.Y2SrnZVI87k}*0.05",
+        "denominatorDescription": "Population of Pregnant women",
+        "url": "",
+        "legendSet": null,
+        "id": "beZ1WYNONnH"
+    },
+    {
+        "name": "ANC Anaemia Rate",
+        "created": "2013-04-17T12:26:12.911+0000",
+        "lastUpdated": "2013-04-20T22:32:38.503+0000",
+        "shortName": "ANC Anaemia Rate",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{MQP6Q5EnrMM.Y2SrnZVI87k}",
+        "numeratorDescription": "ANC Anaemia under 11 Gm%",
+        "denominator": "#{xTS5sF4TloW.Y2SrnZVI87k}",
+        "denominatorDescription": "ANC Anaemia Done",
+        "url": "",
+        "legendSet": null,
+        "id": "BWjIm3FvPSS"
+    },
+    {
+        "name": "Antenatal 1st visits before 20 weeks rate",
+        "created": "2013-04-17T12:27:05.658+0000",
+        "lastUpdated": "2013-04-20T22:32:38.517+0000",
+        "shortName": "ANC bf 20 wks rate",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{OZH9GfZqZ7q.Y2SrnZVI87k}",
+        "numeratorDescription": "Antenatal first visit before 20 weeks",
+        "denominator": "#{PV88LZCbiSF.Y2SrnZVI87k}+#{OZH9GfZqZ7q.Y2SrnZVI87k}",
+        "denominatorDescription": "Antenatal first visit total",
+        "url": "",
+        "legendSet": null,
+        "id": "xIvjr5gGVpp"
+    },
+    {
+        "name": "Bed Occupancy Rate",
+        "created": "2013-03-02T16:23:45.373+0000",
+        "lastUpdated": "2013-04-20T22:32:38.449+0000",
+        "shortName": "Bed Occupancy Rate",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{pePmO4bmizN.Y2SrnZVI87k}",
+        "numeratorDescription": "Total Inpatient Days",
+        "denominator": "#{Q2v8tDczjrn.Y2SrnZVI87k}",
+        "denominatorDescription": "Active Beds in the facility",
+        "url": "",
+        "legendSet": null,
+        "id": "WU44C0TDRUA"
+    },
+    {
+        "name": "X_Admissions 15 years and older - total",
+        "created": "2013-04-17T12:24:32.849+0000",
+        "lastUpdated": "2013-04-20T22:32:38.041+0000",
+        "shortName": "Admissions 15 years > t",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{grq0wRJcNTt.Y2SrnZVI87k}+#{oKGeZqdoX5L.Y2SrnZVI87k}",
+        "numeratorDescription": "Admissions 15 years and older - total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "x72y0X8AcQ1"
+    },
+    {
+        "name": "X_Admissions 5-14 years - total",
+        "created": "2013-04-17T12:25:05.334+0000",
+        "lastUpdated": "2013-04-20T22:32:38.047+0000",
+        "shortName": "Admissions 5-14 years - t",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{eYEMRzhsm7D.Y2SrnZVI87k}+#{LqEA9I9tQff.Y2SrnZVI87k}",
+        "numeratorDescription": "Admissions 5-14 years - total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "nquFwyMqgGN"
+    },
+    {
+        "name": "Infant Mortality Rate",
+        "created": "2013-03-02T15:06:40.593+0000",
+        "lastUpdated": "2013-09-17T19:44:18.259+0000",
+        "shortName": "Infant Mortality Rate",
+        "annualized": false,
+        "indicatorType": {
+            "name": "per1K",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "JbaBTD3mjuq"
+        },
+        "numerator": "#{BY03RaJD6l5.y89wa2aI18G}+#{BY03RaJD6l5.thjAejMEOxw}+#{BY03RaJD6l5.EeOmMSob3uj}+#{BY03RaJD6l5.CyyxhwJfSMe}+#{e2vmQJjPrNF.Y2SrnZVI87k}+#{mrANoODK5lj.Y2SrnZVI87k}+#{gN7MxE4sPCz.Y2SrnZVI87k}+#{gN7MxE4sPCz.Y2SrnZVI87k}+#{zsGGlmaaavt.Y2SrnZVI87k}",
+        "numeratorDescription": "Number of Infant Deaths (less than 1 year)",
+        "denominator": "#{YjZiHDKMWCJ}+#{OE8idChbC45.Y2SrnZVI87k}+#{JFjIlj4UWlI.Y2SrnZVI87k}",
+        "denominatorDescription": "Live Births at Facility",
+        "url": "",
+        "legendSet": null,
+        "id": "kC9iLgI1Wlq"
+    },
+    {
+        "name": "Fresh Still Birth Rate",
+        "created": "2013-03-02T16:10:29.660+0000",
+        "lastUpdated": "2013-09-17T19:44:31.269+0000",
+        "shortName": "Fresh Still Birth Rate",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{GCXoQUD27Jg.Y2SrnZVI87k}",
+        "numeratorDescription": "Fresh still birth",
+        "denominator": "#{FHmQPDbgyYZ.Y2SrnZVI87k}+#{nzBALNgSY9j.Y2SrnZVI87k}+#{h7Sc9XyNwvA.Y2SrnZVI87k}",
+        "denominatorDescription": "Still Births",
+        "url": "",
+        "legendSet": null,
+        "id": "kFpeaNR08cY"
+    },
+    {
+        "name": "Low Birth Weight Rate",
+        "created": "2013-03-02T16:45:09.283+0000",
+        "lastUpdated": "2013-09-17T19:44:31.273+0000",
+        "shortName": "Low Birth Weight Rate",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{A8kjy6zmZlV.Y2SrnZVI87k}+#{W0C6U0UGCyc.Y2SrnZVI87k}+#{YjZiHDKMWCJ.hE0EYluYY9M}+#{YjZiHDKMWCJ.rYT1B3NrGPP}",
+        "numeratorDescription": "Low birth weight rate",
+        "denominator": "#{YjZiHDKMWCJ}+#{OE8idChbC45.Y2SrnZVI87k}+#{JFjIlj4UWlI.Y2SrnZVI87k}",
+        "denominatorDescription": "Live Births",
+        "url": "",
+        "legendSet": null,
+        "id": "KtPaxhsM4cz"
+    },
+    {
+        "name": "HIV Prevalence (Facility)",
+        "created": "2013-03-02T16:30:05.659+0000",
+        "lastUpdated": "2013-09-24T08:18:58.373+0000",
+        "shortName": "HIV Prevalence (Facility)",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{tAl9tq0V8r4}+#{H7uvyB9mozJ.Y2SrnZVI87k}+#{U4yeRFHfPwa.Y2SrnZVI87k}+#{Ox0LRgZI1Kb.Y2SrnZVI87k}+#{pxT890s7Iqs.Y2SrnZVI87k}+#{bHfoa06MHPq.Y2SrnZVI87k}+#{xebXdnDMrDE.Y2SrnZVI87k}",
+        "numeratorDescription": "HIV Tested Positive",
+        "denominator": "#{uVJyULOcFg3.Y2SrnZVI87k}+#{ixJu18Z2mUu.Y2SrnZVI87k}+#{N49SlCVkrxw.Y2SrnZVI87k}+#{iHgkTS0hQeN.Y2SrnZVI87k}+#{VLeDPIRNJfC.Y2SrnZVI87k}+#{qLhbn1gbyaZ.Y2SrnZVI87k}+#{tWA5LguMEWQ}",
+        "denominatorDescription": "Individuals counselled and tested",
+        "url": "",
+        "legendSet": null,
+        "id": "tfhVcNTd2EC"
+    },
+    {
+        "name": "X_ART newly started ART during period - female under 15 total",
+        "created": "2013-04-17T12:27:41.406+0000",
+        "lastUpdated": "2013-04-20T22:32:38.053+0000",
+        "shortName": "ART newly started ART <15",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{ZM5GGfjpljY.Y2SrnZVI87k}+#{lVfRJiFhyse.Y2SrnZVI87k}",
+        "numeratorDescription": "ART newly started ART during period - female under 15 total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "jB6GTgoeVaD"
+    },
+    {
+        "name": "X_ART newly started ART during period - male under 15 total",
+        "created": "2013-04-17T12:27:59.281+0000",
+        "lastUpdated": "2013-04-20T22:32:38.059+0000",
+        "shortName": "ART newly started AR m<15",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{tMgpbR7z9Il.Y2SrnZVI87k}+#{wHEKHxVWw9L.Y2SrnZVI87k}",
+        "numeratorDescription": "ART newly started ART during period - male under 15 total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "JilBO2w0Vwf"
+    },
+    {
+        "name": "X_Attendance 0 - 28 days - total",
+        "created": "2013-04-17T12:29:05.242+0000",
+        "lastUpdated": "2013-04-20T22:32:38.078+0000",
+        "shortName": "Attendance 0 - 28 days ",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{CzjZY6Gdoif.Y2SrnZVI87k}+#{seFR8lAaoiW.Y2SrnZVI87k}",
+        "numeratorDescription": "Attendance 0 - 28 days - total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "eal2TYDI1ON"
+    },
+    {
+        "name": "X_Attendance 12 months - 59 months - total",
+        "created": "2013-04-17T12:29:27.287+0000",
+        "lastUpdated": "2013-04-20T22:32:38.083+0000",
+        "shortName": "Attendance 12 months - 59",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{ktEF9knHQzr.Y2SrnZVI87k}+#{s5z5okh4aE9.Y2SrnZVI87k}",
+        "numeratorDescription": "Attendance 12 months - 59 months - total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "TqwS8ETuHTk"
+    },
+    {
+        "name": "X_Attendance 15 years and older -total",
+        "created": "2013-04-17T12:29:55.148+0000",
+        "lastUpdated": "2013-04-20T22:32:38.089+0000",
+        "shortName": "Attendance 15 years and o",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{u8FuHNYmMPA.Y2SrnZVI87k}+#{i6bxh8w8hbJ.Y2SrnZVI87k}",
+        "numeratorDescription": "Attendance 15 years and older -total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "KTkXF4Fpl2c"
+    },
+    {
+        "name": "X_Attendance 29 days - 11 months - total",
+        "created": "2013-04-17T12:30:20.058+0000",
+        "lastUpdated": "2013-04-20T22:32:38.095+0000",
+        "shortName": "Attendance 29 days - 11 m",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{j30HEsxYK65.Y2SrnZVI87k}+#{Te2VX5hAHnc.Y2SrnZVI87k}",
+        "numeratorDescription": "Attendance 29 days - 11 months - total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "WrjvahlFiZw"
+    },
+    {
+        "name": "X_Children < 5 years with severe malaria - total",
+        "created": "2012-10-08T07:51:57.439+0000",
+        "lastUpdated": "2013-05-03T13:51:07.655+0000",
+        "shortName": "Children < 5 years with t",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{XldfNsMa7Y1.Y2SrnZVI87k}+#{NOLW9rGsODI.Y2SrnZVI87k}",
+        "numeratorDescription": "Children < 5 years with severe malaria - total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "SgzoXthdRyv"
+    },
+    {
+        "name": "X_Condoms distributed (sachet)",
+        "created": "2012-10-08T07:51:57.392+0000",
+        "lastUpdated": "2013-05-03T13:52:46.493+0000",
+        "shortName": "Condoms distributed (sach",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{w92UxLIRNTl.Y2SrnZVI87k}+#{H8A8xQ9gJ5b.Y2SrnZVI87k}",
+        "numeratorDescription": "Condoms distributed (sachet)",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "YH4YimdPdPd"
+    },
+    {
+        "name": "X_Deaths of adolescents aged 10-19 years - total",
+        "created": "2012-10-08T07:51:57.443+0000",
+        "lastUpdated": "2013-05-03T13:52:57.395+0000",
+        "shortName": "Deaths of adoles 10-19y",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{nYPTSXq6JaQ.Y2SrnZVI87k}+#{jfAHNSlgE1F.Y2SrnZVI87k}",
+        "numeratorDescription": "Deaths of adolescents aged 10-19 years - total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "PJ3hmDxNt0F"
+    },
+    {
+        "name": "X_Deaths of adults aged 20+ years - total",
+        "created": "2012-10-08T07:51:57.445+0000",
+        "lastUpdated": "2013-05-03T13:53:11.524+0000",
+        "shortName": "Deaths of adults aged 20+",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{S8cf9nj444x.Y2SrnZVI87k}+#{N0hOinbjxST.Y2SrnZVI87k}",
+        "numeratorDescription": "Deaths of adults aged 20+ years - total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "RoARHVcKk3Z"
+    },
+    {
+        "name": "X_Deaths of babies aged 0 -28 days - total",
+        "created": "2012-10-08T07:51:57.446+0000",
+        "lastUpdated": "2013-05-03T13:53:23.663+0000",
+        "shortName": "Deaths of babies  0 - 28 ",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{e2vmQJjPrNF.Y2SrnZVI87k}+#{mrANoODK5lj.Y2SrnZVI87k}",
+        "numeratorDescription": "Deaths of babies aged 0 -28 days - total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "LSIT72wDMFe"
+    },
+    {
+        "name": "X_Deaths of babies aged 12-59 months - total",
+        "created": "2012-10-08T07:51:57.429+0000",
+        "lastUpdated": "2013-05-03T13:53:35.337+0000",
+        "shortName": "Deaths of babies aged <5",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{s7xpODl8BGS.Y2SrnZVI87k}+#{XMgjoHFdm5c.Y2SrnZVI87k}",
+        "numeratorDescription": "Deaths of babies aged 12-59 months - total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "nCg6DNUhTyT"
+    },
+    {
+        "name": "X_Deaths of babies aged 29 days - 11 months - total",
+        "created": "2012-10-08T07:51:57.448+0000",
+        "lastUpdated": "2013-05-03T13:53:48.375+0000",
+        "shortName": "Deaths of babies <1",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{gN7MxE4sPCz.Y2SrnZVI87k}+#{zsGGlmaaavt.Y2SrnZVI87k}",
+        "numeratorDescription": "Deaths of babies aged 29 days - 11 months - total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "X0uP5Qz1PZs"
+    },
+    {
+        "name": "X_Deaths of children aged 5-9 years - total",
+        "created": "2012-10-08T07:51:57.450+0000",
+        "lastUpdated": "2013-05-03T13:54:03.648+0000",
+        "shortName": "Deaths of children 5-9",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{RxR5gJStAed.Y2SrnZVI87k}+#{PPZycUWijTe.Y2SrnZVI87k}",
+        "numeratorDescription": "Deaths of children aged 5-9 years - total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "R0rZ6t6c4qo"
+    },
+    {
+        "name": "X_Deliveries - Total",
+        "created": "2012-10-08T07:51:57.441+0000",
+        "lastUpdated": "2013-05-03T13:54:40.587+0000",
+        "shortName": "Deliveries - Total",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{K6V8hnB7JNm.Y2SrnZVI87k}+#{zPa9mLmcjmW.Y2SrnZVI87k}+#{DP6NVky89ub.Y2SrnZVI87k}",
+        "numeratorDescription": "Deliveries - Total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "sq1t1xsNl1J"
+    },
+    {
+        "name": "X_DPT 3 given under 1 year (total)",
+        "created": "2012-12-18T17:15:30.020+0000",
+        "lastUpdated": "2013-05-03T13:55:07.206+0000",
+        "shortName": "DPT 3 given <1y (total)",
+        "description": "Total of data collected through 2010 and 2013 forms.",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{I8XeRBdgIGB.Y2SrnZVI87k}+#{ENl7E6JDTbF.Y2SrnZVI87k}",
+        "numeratorDescription": "DPT 3rd dose under 1 year",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "HXTgxRaeM9p"
+    },
+    {
+        "name": "X_Guinea worm - suspected case",
+        "created": "2012-10-08T07:51:57.371+0000",
+        "lastUpdated": "2013-05-03T13:55:32.757+0000",
+        "shortName": "Guinea worm - suspected ",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{SZ2FpW1YHst.Y2SrnZVI87k}+#{M5ACrTixiPj.Y2SrnZVI87k}",
+        "numeratorDescription": "Guinea worm - suspected case",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "Eq9ktEuG4qH"
+    },
+    {
+        "name": "X_Dysentery - suspected case",
+        "created": "2012-10-08T07:51:57.373+0000",
+        "lastUpdated": "2013-05-03T13:55:56.101+0000",
+        "shortName": "Dysentery - suspected cas",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{aCHvh0u2Uas.Y2SrnZVI87k}+#{O6mlKNfJHuT.Y2SrnZVI87k}",
+        "numeratorDescription": "Dysentery - suspected case",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "RL0TqGFuodd"
+    },
+    {
+        "name": "X_Fully Immunised Children under 1 year (total)",
+        "created": "2012-12-18T17:28:09.396+0000",
+        "lastUpdated": "2013-05-03T13:56:06.808+0000",
+        "shortName": "Fully Immunised <1y total",
+        "description": "Total of data from 2010+2013 forms.",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{NVDpTyjeEY0.Y2SrnZVI87k}+#{bZmzE8KYlfs.Y2SrnZVI87k}",
+        "numeratorDescription": "Immunised fully under 1 year",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "aD69v4LYNl0"
+    },
+    {
+        "name": "X_HepB 1st dose under 1 year",
+        "created": "2012-10-08T07:51:57.431+0000",
+        "lastUpdated": "2013-05-03T13:56:36.303+0000",
+        "shortName": "HepB 1st dose under 1 yea",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{s7UfZPNGLU9.Y2SrnZVI87k}+#{R8KsXJSHAsv.Y2SrnZVI87k}",
+        "numeratorDescription": "HepB 1st dose under 1 year",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "neTZYRs5bPN"
+    },
+    {
+        "name": "X_HepB 3rd dose under 1 year",
+        "created": "2012-10-08T07:51:57.432+0000",
+        "lastUpdated": "2013-05-03T13:56:46.338+0000",
+        "shortName": "HepB 3rd dose under 1 yea",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{iZbqzKzIXb2.Y2SrnZVI87k}+#{pCrr7x2LNlR.Y2SrnZVI87k}",
+        "numeratorDescription": "HepB 3rd dose under 1 year",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "EEgvs9jTUoN"
+    },
+    {
+        "name": "X_Individuals 15-49 years using modern contraceptives",
+        "created": "2012-10-08T07:51:57.390+0000",
+        "lastUpdated": "2013-05-03T13:56:59.162+0000",
+        "shortName": "Individuals 15-49 years ",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{G5mKWErswJ0.Y2SrnZVI87k}+#{eChiJMwaOqm.Y2SrnZVI87k}",
+        "numeratorDescription": "Individuals 15-49 years using modern contraceptives",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "K2CFGOXE3fV"
+    },
+    {
+        "name": "X_Leprosy on treatment",
+        "created": "2012-10-08T07:51:57.378+0000",
+        "lastUpdated": "2013-05-03T13:57:44.629+0000",
+        "shortName": "Leprosy on treatment",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{tkYTz5KP0ay.Y2SrnZVI87k}+#{D6NvW35L8jL.Y2SrnZVI87k}",
+        "numeratorDescription": "Leprosy on treatment",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "oNSScPPQcyj"
+    },
+    {
+        "name": "X_Measles - new case",
+        "created": "2012-10-08T07:51:57.365+0000",
+        "lastUpdated": "2013-05-03T13:58:07.493+0000",
+        "shortName": "Measles - new case",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{vfy3VRhlGKT.Y2SrnZVI87k}+#{oQqYEkKlHbL.Y2SrnZVI87k}",
+        "numeratorDescription": "Measles - new case",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "W906uaTJ7H3"
+    },
+    {
+        "name": "X_Measles under 5 years - new case",
+        "created": "2012-10-08T07:51:57.382+0000",
+        "lastUpdated": "2013-05-03T13:59:19.416+0000",
+        "shortName": "Measles under 5 years - n",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{Gj052lnYuEk.Y2SrnZVI87k}+#{qDV1i8HkKM9.Y2SrnZVI87k}",
+        "numeratorDescription": "Measles under 5 years - new case",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "WERZlPh39GU"
+    },
+    {
+        "name": "X_Onchocerciasis - suspected case",
+        "created": "2012-10-08T07:51:57.385+0000",
+        "lastUpdated": "2013-05-03T14:03:17.246+0000",
+        "shortName": "Onchocerciasis - suspect",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{X27ltOwur6M.Y2SrnZVI87k}+#{buzyMQdjW7P.Y2SrnZVI87k}",
+        "numeratorDescription": "Onchocerciasis - suspected case",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "WZcuKh96Gnh"
+    },
+    {
+        "name": "X_OPV 3rd dose under 1 year",
+        "created": "2012-10-08T07:51:57.412+0000",
+        "lastUpdated": "2013-05-03T14:01:32.426+0000",
+        "shortName": "OPV 3rd dose under 1 year",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{Uy1lC8lnfIv.Y2SrnZVI87k}+#{b8GU54mQEG1.Y2SrnZVI87k}",
+        "numeratorDescription": "OPV 3rd dose under 1 year",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "Wvl1IIorhZu"
+    },
+    {
+        "name": "X_Suspected HIV/AIDS clinical case",
+        "created": "2012-10-08T07:51:57.376+0000",
+        "lastUpdated": "2013-05-03T14:01:49.190+0000",
+        "shortName": "Suspected HIV/AIDS clinic",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{CJiG9GGnlvF.Y2SrnZVI87k}+#{LV0TBBclzyf.Y2SrnZVI87k}",
+        "numeratorDescription": "Suspected HIV/AIDS clinical case",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "dqRGXO7rRV4"
+    },
+    {
+        "name": "X_Pneumonia 5 years and older",
+        "created": "2012-10-08T07:51:57.389+0000",
+        "lastUpdated": "2013-05-03T14:02:15.743+0000",
+        "shortName": "Pneumonia 5 years and old",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{N9TO5QeOk5u.Y2SrnZVI87k}+#{L97YfdDi1i4.Y2SrnZVI87k}",
+        "numeratorDescription": "Pneumonia 5 years and older",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "Hy7FPE9VoKG"
+    },
+    {
+        "name": "X_OPV 1st dose under 1 year",
+        "created": "2012-10-08T07:51:57.427+0000",
+        "lastUpdated": "2013-05-03T14:02:28.280+0000",
+        "shortName": "X_OPV 1st dose under 1 year",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{Nd9TVQMONFI.Y2SrnZVI87k}+#{dBtT1kS6NSx.Y2SrnZVI87k}",
+        "numeratorDescription": "OPV 1st dose under 1 year",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "FtNWPi9Zp6d"
+    },
+    {
+        "name": "X_Newborns with neonatal tetanus",
+        "created": "2012-10-08T07:51:57.408+0000",
+        "lastUpdated": "2013-05-03T14:03:28.435+0000",
+        "shortName": "Newborns with neonatal te",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{tgOIllDoNlR.Y2SrnZVI87k}+#{RTJQB5Qnr7E.Y2SrnZVI87k}",
+        "numeratorDescription": "Newborns with neonatal tetanus",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "KPotoKl0dWp"
+    },
+    {
+        "name": "X_Admissions 0-4 years - total",
+        "created": "2013-04-17T12:24:10.290+0000",
+        "lastUpdated": "2013-04-20T22:32:38.497+0000",
+        "shortName": "Admissions 0-4 years",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{m4b3iu6YLrx.Y2SrnZVI87k}+#{TPas7fUU16Z.Y2SrnZVI87k}",
+        "numeratorDescription": "Admissions 0-4 years",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "DsxANS5B2St"
+    },
+    {
+        "name": "X_Antenatal 1st visit - Total",
+        "created": "2013-04-17T12:26:32.677+0000",
+        "lastUpdated": "2013-04-20T22:32:38.509+0000",
+        "shortName": "Antenatal 1st visit - Tot",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{PV88LZCbiSF.Y2SrnZVI87k}+#{OZH9GfZqZ7q.Y2SrnZVI87k}",
+        "numeratorDescription": "Antenatal 1st visit - Total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "joWyNIq0XtY"
+    },
+    {
+        "name": "X_ART newly started ART during period - total",
+        "created": "2013-04-17T12:28:22.741+0000",
+        "lastUpdated": "2013-04-20T22:32:38.529+0000",
+        "shortName": "ART newly started ART t",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{VvgE03PJiuX.Y2SrnZVI87k}+#{ZM5GGfjpljY.Y2SrnZVI87k}+#{lVfRJiFhyse.Y2SrnZVI87k}+#{tM4n8L3UbHx.Y2SrnZVI87k}+#{tMgpbR7z9Il.Y2SrnZVI87k}+#{wHEKHxVWw9L.Y2SrnZVI87k}",
+        "numeratorDescription": "ART newly started ART during period - total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "WO5OluTlssa"
+    },
+    {
+        "name": "X_BCG under 1 year given (total)",
+        "created": "2013-04-17T12:31:49.839+0000",
+        "lastUpdated": "2013-04-20T22:32:38.536+0000",
+        "shortName": "BCG <1y given (total)",
+        "description": "This is the total BCG given of data collected using either the old (2010) form or the new (2013) form.",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{Mf9yGGw5Hqa.Y2SrnZVI87k}+#{GR3wd3urEk6.Y2SrnZVI87k}+#{UVw96W1kcja}",
+        "numeratorDescription": "BCG 1st dose under 1 year (total)",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "E7iRFoNVP3h"
+    },
+    {
+        "name": "X_ART patients receiving ARV refill - total",
+        "created": "2013-04-17T12:28:43.407+0000",
+        "lastUpdated": "2013-04-20T22:32:38.071+0000",
+        "shortName": "ART patients receiving re",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{HO9qT9GSVca.Y2SrnZVI87k}+#{CC9fFk9w3iJ.Y2SrnZVI87k}+#{QuORkFuIsiM.Y2SrnZVI87k}+#{k7oS3mDvCXG.Y2SrnZVI87k}+#{aoTaXhDCYLm.Y2SrnZVI87k}+#{Z38sZ2c5KbT.Y2SrnZVI87k}",
+        "numeratorDescription": "ART patients receiving ARV refill - total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "xbS01a5uTwq"
+    },
+    {
+        "name": "X_Cerebro Spinal Meningitis new Total",
+        "created": "2012-04-23T23:00:00.000+0000",
+        "lastUpdated": "2013-05-03T13:49:55.080+0000",
+        "shortName": "CSM New Total",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{oC8fWiEr3BF.Y2SrnZVI87k}+#{GqLw59mtaBS.Y2SrnZVI87k}",
+        "numeratorDescription": "Cerebro Spinal Meningitis new Total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "WuDuMAPrlsi"
+    },
+    {
+        "name": "X_Child under 6 months exclusively breast fed",
+        "created": "2012-10-08T07:51:57.462+0000",
+        "lastUpdated": "2013-05-03T13:50:39.157+0000",
+        "shortName": "Child under 6 months bf",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{PbAhQhSBTgj.Y2SrnZVI87k}+#{O3icPJ0qT7e.Y2SrnZVI87k}",
+        "numeratorDescription": "Child under 6 months exclusively breast fed",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "a6yBdMTT7sW"
+    },
+    {
+        "name": "X_Children (6-59 months) given vitamin A - total",
+        "created": "2012-10-08T07:51:57.466+0000",
+        "lastUpdated": "2013-05-03T13:50:53.758+0000",
+        "shortName": "Children (6-59 months) vA",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{g8DQSzMY7lK.Y2SrnZVI87k}+#{cCkAqzlagDI.Y2SrnZVI87k}",
+        "numeratorDescription": "Children (6-59 months) given vitamin A - total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "ZSIBFJaCbuy"
+    },
+    {
+        "name": "X_Children < 5 years with uncomplicated malaria receiving ACT- total",
+        "created": "2012-10-08T07:51:57.489+0000",
+        "lastUpdated": "2013-05-03T13:51:23.159+0000",
+        "shortName": "Malaria<5 years given ACT",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{AswDouRqjTm.Y2SrnZVI87k}+#{uFBRifclbf4.Y2SrnZVI87k}",
+        "numeratorDescription": "Children < 5 years with uncomplicated malaria receiving ACT- total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "bw5oLVxPcMB"
+    },
+    {
+        "name": "X_Children aged 0-59 months weighed",
+        "created": "2012-10-08T07:51:57.464+0000",
+        "lastUpdated": "2013-05-03T13:51:48.038+0000",
+        "shortName": "Child aged 0-59 months w",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{vazXT5H0oIq.Y2SrnZVI87k}+#{hfEGeN9upJg.Y2SrnZVI87k}",
+        "numeratorDescription": "Children aged 0-59 months weighed",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "XscbqBNv5ei"
+    },
+    {
+        "name": "X_Children < 5 years with uncomplicated malaria - total",
+        "created": "2012-10-08T07:51:57.491+0000",
+        "lastUpdated": "2013-05-03T13:52:01.257+0000",
+        "shortName": "Uncomplicated Malaria<5yr",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{eTWzqsMhO39.Y2SrnZVI87k}+#{GIhpyrrYZDd.Y2SrnZVI87k}",
+        "numeratorDescription": "Children < 5 years with uncomplicated malaria - total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "sPT5zOaoyjP"
+    },
+    {
+        "name": "X_DPT 1 given under 1 year (total)",
+        "created": "2012-12-18T17:14:45.409+0000",
+        "lastUpdated": "2013-05-03T13:54:31.119+0000",
+        "shortName": "DPT 1 given <1y (total)",
+        "description": "Total of data collected through 2010+2013 forms.",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{WhNFfxoAA4P.Y2SrnZVI87k}+#{NYqZATC2zVQ.Y2SrnZVI87k}",
+        "numeratorDescription": "DPT 1st dose under 1 year",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "S3OHlCplcH8"
+    },
+    {
+        "name": "X_Hepatitis - suspected case",
+        "created": "2012-10-08T07:51:57.374+0000",
+        "lastUpdated": "2013-05-03T13:55:45.599+0000",
+        "shortName": "Hepatitis - suspected cas",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{npXu5cnPAD8.Y2SrnZVI87k}+#{LraNP5YU7m8.Y2SrnZVI87k}",
+        "numeratorDescription": "Hepatitis - suspected case",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "rZyop1kUQ4O"
+    },
+    {
+        "name": "X_HCT Individuals tested HIV positive - total",
+        "created": "2012-10-08T07:51:57.406+0000",
+        "lastUpdated": "2013-05-03T13:56:25.772+0000",
+        "shortName": "HCT Individuals tested +",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{xebXdnDMrDE.Y2SrnZVI87k}+#{bHfoa06MHPq.Y2SrnZVI87k}+#{pxT890s7Iqs.Y2SrnZVI87k}+#{Ox0LRgZI1Kb.Y2SrnZVI87k}",
+        "numeratorDescription": "HCT Individuals tested HIV positive - total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "pmasftBfBWA"
+    },
+    {
+        "name": "X_Individuals >= 5 years with uncomplicated malaria -total",
+        "created": "2012-10-08T07:51:57.434+0000",
+        "lastUpdated": "2013-05-03T13:57:17.490+0000",
+        "shortName": "Individuals >= 5 years um",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{MYdgKzkluDv.Y2SrnZVI87k}+#{Vq5HpRRdSdV.Y2SrnZVI87k}",
+        "numeratorDescription": "Individuals >= 5 years with uncomplicated malaria -total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "Y0DB9l8egif"
+    },
+    {
+        "name": "X_Live births (total)",
+        "created": "2012-12-18T17:33:55.966+0000",
+        "lastUpdated": "2013-05-03T13:57:53.606+0000",
+        "shortName": "Live births (total)",
+        "description": "Total of data collected with 2010 and 2013 forms.",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{JFjIlj4UWlI.Y2SrnZVI87k}+#{OE8idChbC45.Y2SrnZVI87k}+#{YjZiHDKMWCJ}",
+        "numeratorDescription": "Live births (total)",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "IFmNZEG5Oer"
+    },
+    {
+        "name": "X_Measles given under 1 year (total)",
+        "created": "2012-12-18T17:17:47.978+0000",
+        "lastUpdated": "2013-05-03T13:58:20.858+0000",
+        "shortName": "Measles given <1y",
+        "description": "Data collected through 2010+2013 forms. ",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{dvDHdcIXxHR.Y2SrnZVI87k}+#{ewo1zqu52DA.Y2SrnZVI87k}",
+        "numeratorDescription": "Measles 1st dose under 1 year",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "m8lbcyQDt5y"
+    },
+    {
+        "name": "X_Live birth under 2500g",
+        "created": "2012-10-08T07:51:57.478+0000",
+        "lastUpdated": "2013-05-03T13:58:31.783+0000",
+        "shortName": "Live birth under 2500g",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{A8kjy6zmZlV.Y2SrnZVI87k}+#{W0C6U0UGCyc.Y2SrnZVI87k}",
+        "numeratorDescription": "Live birth under 2500g",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "l3SKQ5xMnpf"
+    },
+    {
+        "name": "X_New road traffic accident case",
+        "created": "2012-10-08T07:51:57.461+0000",
+        "lastUpdated": "2013-05-03T13:58:56.171+0000",
+        "shortName": "New road traffic accident",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{AGajfbbIcaI.Y2SrnZVI87k}+#{rCHKJ6we9Xz.Y2SrnZVI87k}",
+        "numeratorDescription": "New road traffic accident case",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "R9qPszrxJM2"
+    },
+    {
+        "name": "X_Live birth 2500g and above",
+        "created": "2012-10-08T07:51:57.468+0000",
+        "lastUpdated": "2013-05-03T13:59:05.999+0000",
+        "shortName": "Live birth 2500g and abov",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{IdxqfvK1qLS.Y2SrnZVI87k}+#{ec5ewUQ9PkH.Y2SrnZVI87k}",
+        "numeratorDescription": "Live birth 2500g and above",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "LfXFqjymb1g"
+    },
+    {
+        "name": "X_New home accident case",
+        "created": "2012-10-08T07:51:57.459+0000",
+        "lastUpdated": "2013-05-03T13:59:32.991+0000",
+        "shortName": "New home accident case",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{Feh8JsjgpMY.Y2SrnZVI87k}+#{VM6bnPvKybF.Y2SrnZVI87k}",
+        "numeratorDescription": "New home accident case",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "yPNdkGe0NAJ"
+    },
+    {
+        "name": "X_New Coronary Heart Disease",
+        "created": "2012-10-08T07:51:57.452+0000",
+        "lastUpdated": "2013-05-03T13:59:53.994+0000",
+        "shortName": "New Coronary Heart Diseas",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{cxK7uVTrbgX.Y2SrnZVI87k}+#{L4vyy97vzuy.Y2SrnZVI87k}",
+        "numeratorDescription": "New Coronary Heart Disease",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "KT17NqfDAp8"
+    },
+    {
+        "name": "X_Newborns with neonatal jaundice",
+        "created": "2012-10-08T07:51:57.480+0000",
+        "lastUpdated": "2013-05-03T14:00:25.498+0000",
+        "shortName": "Newborns with neonatal ja",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{Vzgvk4NqNVc.Y2SrnZVI87k}+#{Mhqk3Yy6fNL.Y2SrnZVI87k}",
+        "numeratorDescription": "Newborns with neonatal jaundice",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "r1yZdriuaqY"
+    },
+    {
+        "name": "X_New hypertension case",
+        "created": "2012-10-08T07:51:57.455+0000",
+        "lastUpdated": "2013-05-03T14:00:35.994+0000",
+        "shortName": "New hypertension case",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{kY53D1Ec64J.Y2SrnZVI87k}+#{VKSCRTvRspO.Y2SrnZVI87k}",
+        "numeratorDescription": "New hypertension case",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "LXuBOrUdde1"
+    },
+    {
+        "name": "X_New Sickle Cell Disease Case",
+        "created": "2012-10-08T07:51:57.457+0000",
+        "lastUpdated": "2013-05-03T14:00:49.120+0000",
+        "shortName": "New Sickle Cell Disease C",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{Zs0ydbD8P4T.Y2SrnZVI87k}+#{akE786ahTSa.Y2SrnZVI87k}",
+        "numeratorDescription": "New Sickle Cell Disease Case",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "QyzJMzpjexR"
+    },
+    {
+        "name": "X_Newborns with neonatal sepsis",
+        "created": "2012-10-08T07:51:57.483+0000",
+        "lastUpdated": "2013-05-03T14:01:01.319+0000",
+        "shortName": "Newborns with neonatal se",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{qK3wQcGWVlz.Y2SrnZVI87k}+#{sO3EZLRzaBD.Y2SrnZVI87k}",
+        "numeratorDescription": "Newborns with neonatal sepsis",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "T5VROpzDBKj"
+    },
+    {
+        "name": "X_Pertussis - suspected case",
+        "created": "2012-10-08T07:51:57.387+0000",
+        "lastUpdated": "2013-05-03T14:01:59.995+0000",
+        "shortName": "Pertussis - suspected cas",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{palBnWiWgfq.Y2SrnZVI87k}+#{x7YJcIIvoX3.Y2SrnZVI87k}",
+        "numeratorDescription": "Pertussis - suspected case",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "S1YIft3ahVl"
+    },
+    {
+        "name": "X_New diabetus mellitus case",
+        "created": "2012-10-08T07:51:57.453+0000",
+        "lastUpdated": "2013-05-03T14:03:37.416+0000",
+        "shortName": "New diabetus mellitus cas",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{JToGBuWmB5H.Y2SrnZVI87k}+#{OJgKtPM9gXs.Y2SrnZVI87k}",
+        "numeratorDescription": "New diabetus mellitus case",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "fxhMwCJ7iLf"
+    },
+    {
+        "name": "X_Children aged 0-59 months weighing below bottom line",
+        "created": "2012-10-08T07:51:57.485+0000",
+        "lastUpdated": "2013-05-03T13:52:15.432+0000",
+        "shortName": "Children  0-59 mnths belo",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{DPFbFcYrO9d.Y2SrnZVI87k}+#{gRIPL5vAsel.Y2SrnZVI87k}",
+        "numeratorDescription": "Children aged 0-59 months weighing below bottom line",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "rHgWpfOdTfI"
+    },
+    {
+        "name": "X_Facility Attendance (total)",
+        "created": "2012-12-18T17:21:46.682+0000",
+        "lastUpdated": "2013-05-03T13:54:55.881+0000",
+        "shortName": "Facility Attendance (total)",
+        "description": "Total facility attendance collected through either 2010 or 2013 foms. ",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{CzjZY6Gdoif.Y2SrnZVI87k}+#{seFR8lAaoiW.Y2SrnZVI87k}+#{ktEF9knHQzr.Y2SrnZVI87k}+#{s5z5okh4aE9.Y2SrnZVI87k}+#{u8FuHNYmMPA.Y2SrnZVI87k}+#{i6bxh8w8hbJ.Y2SrnZVI87k}+#{j30HEsxYK65.Y2SrnZVI87k}+#{Te2VX5hAHnc.Y2SrnZVI87k}+#{yJ0o089gCVI.Y2SrnZVI87k}+#{HUpgIQkW0gF.Y2SrnZVI87k}+#{Jc1WjNKrObY}",
+        "numeratorDescription": "Facility Attendance (total)",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "X1TGmLWczOG"
+    },
+    {
+        "name": "Couple Years Protection(CYP)",
+        "created": "2013-03-02T16:17:15.218+0000",
+        "lastUpdated": "2013-09-17T19:44:18.271+0000",
+        "shortName": "CYP",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "(#{vDnxlrIQWUo.Y2SrnZVI87k}/13)+(#{ibHR9NQ0bKL.Y2SrnZVI87k}/6)+(#{DiXDJRmPwfh.Y2SrnZVI87k}*5)+(#{yJSLjbC9Gnr.Y2SrnZVI87k}*10)+(#{krVqq8Vk5Kw.Y2SrnZVI87k}*10)",
+        "numeratorDescription": "Couple Year Protection",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "oI4V3jXAWdB"
+    },
+    {
+        "name": "X_HCT Individuals HIV counseled tested and received results - total",
+        "created": "2012-10-08T07:51:57.403+0000",
+        "lastUpdated": "2013-05-03T13:56:15.661+0000",
+        "shortName": "HCT Individuals HIV Cou t",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{uVJyULOcFg3.Y2SrnZVI87k}+#{ixJu18Z2mUu.Y2SrnZVI87k}+#{N49SlCVkrxw.Y2SrnZVI87k}+#{iHgkTS0hQeN.Y2SrnZVI87k}+#{VLeDPIRNJfC.Y2SrnZVI87k}+#{qLhbn1gbyaZ.Y2SrnZVI87k}",
+        "numeratorDescription": "HCT Individuals HIV counseled tested and received results - total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "eQcljLkfCjR"
+    },
+    {
+        "name": "DPT 3 Coverage",
+        "created": "2013-07-23T20:27:39.252+0000",
+        "lastUpdated": "2013-07-23T20:27:39.262+0000",
+        "shortName": "DPT 3 Coverage",
+        "annualized": true,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{VWPqgRBwOJM}+#{I8XeRBdgIGB.Y2SrnZVI87k}+#{ENl7E6JDTbF.Y2SrnZVI87k}",
+        "numeratorDescription": "DPT 3 Dose",
+        "denominator": "#{JiqRpGPcjXz.Y2SrnZVI87k}*0.05",
+        "denominatorDescription": "Population under 1 year",
+        "url": "",
+        "legendSet": null,
+        "id": "AErjqVmK3pZ"
+    },
+    {
+        "name": "X_Yellow fever - new case",
+        "created": "2012-10-08T07:51:57.369+0000",
+        "lastUpdated": "2013-07-26T09:25:04.162+0000",
+        "shortName": "Yellow fever - new case",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{tRRZtYhFJvr.Y2SrnZVI87k}+#{VEzMPMOQPO4.Y2SrnZVI87k}",
+        "numeratorDescription": "Yellow fever - new case",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "i0N9LBsviwb"
+    },
+    {
+        "name": "X_Yellow Fever 1st dose under 1 year - total",
+        "created": "2012-10-08T07:51:57.436+0000",
+        "lastUpdated": "2013-07-26T09:25:45.493+0000",
+        "shortName": "Yellow Fever 1st dose ",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{QLz2VmOVQN2.Y2SrnZVI87k}+#{uyGjSdPpuao.Y2SrnZVI87k}",
+        "numeratorDescription": "Yellow Fever 1st dose under 1 year - total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "tTgWBQdRy4r"
+    },
+    {
+        "name": "BCG Coverage",
+        "created": "2013-07-23T20:18:33.440+0000",
+        "lastUpdated": "2013-07-26T09:27:31.545+0000",
+        "shortName": "BCG Coverage",
+        "annualized": true,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{Mf9yGGw5Hqa.Y2SrnZVI87k}+#{GR3wd3urEk6.Y2SrnZVI87k}+#{UVw96W1kcja.Knva5F6vpNi}+#{UVw96W1kcja.Jf7HweYFAFM}+#{UVw96W1kcja.X09n3qxT4ol}+#{UVw96W1kcja.buq6m3bCd4y}",
+        "numeratorDescription": "BCG Dose",
+        "denominator": "#{JiqRpGPcjXz.Y2SrnZVI87k}*(0.05)",
+        "denominatorDescription": "Population under 1 year",
+        "url": "",
+        "legendSet": null,
+        "id": "ZeMXMabbR4C"
+    },
+    {
+        "name": "Fertility Rate",
+        "created": "2013-09-19T21:35:00.721+0000",
+        "lastUpdated": "2013-09-19T21:35:17.066+0000",
+        "shortName": "Fertility Rate",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{YjZiHDKMWCJ}+#{IdxqfvK1qLS.Y2SrnZVI87k}+#{ec5ewUQ9PkH.Y2SrnZVI87k}",
+        "numeratorDescription": "Live births",
+        "denominator": "#{JiqRpGPcjXz.Y2SrnZVI87k}*C{BFoE2VJnEW8}",
+        "denominatorDescription": "Women of Child bearing age",
+        "url": "",
+        "legendSet": null,
+        "id": "GWxFtWFcEW1"
+    },
+    {
+        "name": "HIV Prevalence (Pregnant Women)",
+        "created": "2013-09-24T08:12:04.846+0000",
+        "lastUpdated": "2013-09-24T08:12:04.887+0000",
+        "shortName": "HIV Prevalence (Pregnant Women)",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{GfihIxfGXMJ.Y2SrnZVI87k}",
+        "numeratorDescription": "Pregnant Women tested positive",
+        "denominator": "#{xWCQgx4h3oG.Y2SrnZVI87k}",
+        "denominatorDescription": "Pregnant women tested HIV",
+        "url": "",
+        "legendSet": null,
+        "id": "VonaMB9LI1d"
+    },
+    {
+        "name": "Caesarian Delivery Rate",
+        "created": "2013-09-21T21:26:13.035+0000",
+        "lastUpdated": "2013-09-21T21:26:13.041+0000",
+        "shortName": "Caesarian Delivery Rate",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{DP6NVky89ub.Y2SrnZVI87k}",
+        "numeratorDescription": "Caesarian Deliveries",
+        "denominator": "#{JiqRpGPcjXz.Y2SrnZVI87k}*C{KaP7QC5Fh3s}",
+        "denominatorDescription": "Expected Deliveries",
+        "url": "",
+        "legendSet": null,
+        "id": "gyEsWwfA7Ww"
+    },
+    {
+        "name": "% 1st Postnatal Visits (Within 3 days)",
+        "created": "2013-09-21T21:38:41.383+0000",
+        "lastUpdated": "2013-09-21T21:38:41.390+0000",
+        "shortName": "% 1st Postnatal Visits (Within 3 days)",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{oq781H4viwX.Y2SrnZVI87k}",
+        "numeratorDescription": "Postnatal Visits within 3 days",
+        "denominator": "#{YjZiHDKMWCJ}+#{OE8idChbC45.Y2SrnZVI87k}+#{JFjIlj4UWlI.Y2SrnZVI87k}",
+        "denominatorDescription": "Live Births",
+        "url": "",
+        "legendSet": null,
+        "id": "tIxdhKl7XQr"
+    },
+    {
+        "name": "% of Antenatal 1st Visits receiving IPT1",
+        "created": "2013-10-07T02:21:48.899+0000",
+        "lastUpdated": "2013-10-07T02:21:48.974+0000",
+        "shortName": "ANC 1 receiving IPT1",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{pUZ0BKgsAXp.Y2SrnZVI87k}",
+        "numeratorDescription": "Women receiving IPT1",
+        "denominator": "#{PV88LZCbiSF.Y2SrnZVI87k}+#{OZH9GfZqZ7q.Y2SrnZVI87k}",
+        "denominatorDescription": "Antenatal 1st Visits Total",
+        "url": "",
+        "legendSet": null,
+        "id": "pPTpnHWnpTu"
+    },
+    {
+        "name": "LLIN given - Total",
+        "created": "2013-10-07T02:25:31.778+0000",
+        "lastUpdated": "2013-10-07T02:25:31.783+0000",
+        "shortName": "LLIN given - Total",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{ZFgiCO6nyAP.Y2SrnZVI87k}+#{w6nOgEFHWMG.Y2SrnZVI87k}",
+        "numeratorDescription": "LLIN Given",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "IZgNib2WHSD"
+    },
+    {
+        "name": "% of Fever cases Tested with RDT",
+        "created": "2013-10-07T02:30:04.156+0000",
+        "lastUpdated": "2013-10-07T02:30:04.166+0000",
+        "shortName": "% of Fever cases Tested with RDT",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{r6WOvUlcQm6}",
+        "numeratorDescription": "Fever tested by RDT",
+        "denominator": "#{m5gTF1jKQjl}",
+        "denominatorDescription": "Fever Cases",
+        "url": "",
+        "legendSet": null,
+        "id": "quCqGMTBTHi"
+    },
+    {
+        "name": "% of Fever cases tested positive with RDT",
+        "created": "2013-10-07T02:33:01.508+0000",
+        "lastUpdated": "2013-10-07T02:33:01.513+0000",
+        "shortName": "% tested positive with RDT",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{GEd2F6skCpT}",
+        "numeratorDescription": "RDT positive",
+        "denominator": "#{r6WOvUlcQm6}",
+        "denominatorDescription": "RDT Total",
+        "url": "",
+        "legendSet": null,
+        "id": "l2eIpdluuTI"
+    },
+    {
+        "name": "% of Fever cases tested positive with Microscopy",
+        "created": "2013-10-09T04:47:26.241+0000",
+        "lastUpdated": "2013-10-09T04:47:26.280+0000",
+        "shortName": "% tested positive with Microscopy",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{G7iWnz9RMy9}",
+        "numeratorDescription": "Malaria tested positive with microscopy",
+        "denominator": "#{k2Cpuz9BQtD}",
+        "denominatorDescription": "Malaria Microscopy",
+        "url": "",
+        "legendSet": null,
+        "id": "WAywN48snnd"
+    },
+    {
+        "name": "% of Fever cases Tested with Microscopy",
+        "created": "2013-10-09T04:49:03.633+0000",
+        "lastUpdated": "2013-10-09T04:49:03.641+0000",
+        "shortName": "% of Fever cases Tested with Microscopy",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{k2Cpuz9BQtD}",
+        "numeratorDescription": "Malaria Microscopy",
+        "denominator": "#{m5gTF1jKQjl}",
+        "denominatorDescription": "Fever Cases",
+        "url": "",
+        "legendSet": null,
+        "id": "C2uGy964KNe"
+    },
+    {
+        "name": "% of Malaria cases clinically diagnosed",
+        "created": "2013-10-09T04:55:24.284+0000",
+        "lastUpdated": "2013-10-09T04:55:24.289+0000",
+        "shortName": "% of Malaria cases clinically diagnosed",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{K9K1G0XX4ax}",
+        "numeratorDescription": "Clinical Malaria",
+        "denominator": "#{m5gTF1jKQjl}",
+        "denominatorDescription": "Fever cases",
+        "url": "",
+        "legendSet": null,
+        "id": "vYRF9XQAt6t"
+    },
+    {
+        "name": "% Confirmed uncomplicated Malaria",
+        "created": "2013-10-09T04:59:32.624+0000",
+        "lastUpdated": "2013-10-09T04:59:32.630+0000",
+        "shortName": "% Confirmed uncomplicated Malaria",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{G7iWnz9RMy9}+#{GEd2F6skCpT}",
+        "numeratorDescription": "Confirmed uncomplicated malaria",
+        "denominator": "#{r6WOvUlcQm6}+#{k2Cpuz9BQtD}",
+        "denominatorDescription": "Uncomplicated Malaria",
+        "url": "",
+        "legendSet": null,
+        "id": "IDvOsgRb9vK"
+    },
+    {
+        "name": "% of suspected malaria receiving parasitological test",
+        "created": "2013-10-09T05:02:09.452+0000",
+        "lastUpdated": "2013-10-09T05:02:09.457+0000",
+        "shortName": "malaria parasitological test",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{r6WOvUlcQm6}+#{k2Cpuz9BQtD}",
+        "numeratorDescription": "Malaria Parasitological Tests",
+        "denominator": "#{m5gTF1jKQjl}",
+        "denominatorDescription": "Fever cases",
+        "url": "",
+        "legendSet": null,
+        "id": "mWT59jwbd9c"
+    },
+    {
+        "name": "% of confirmed uncomplicated malaria given ACT",
+        "created": "2013-10-09T05:08:19.422+0000",
+        "lastUpdated": "2013-10-09T05:08:19.427+0000",
+        "shortName": "uncomplicated malaria given ACT",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{ouzURM9c1FI}",
+        "numeratorDescription": "ACT for uncomplicated Malaria",
+        "denominator": "#{HdtaLx63988}",
+        "denominatorDescription": "uncomplicated malaria",
+        "url": "",
+        "legendSet": null,
+        "id": "acmdhxLWZb2"
+    },
+    {
+        "name": "% of clinically diagnosed malaria given ACT",
+        "created": "2013-10-09T05:38:38.700+0000",
+        "lastUpdated": "2013-10-09T05:38:38.705+0000",
+        "shortName": "%Clinical Malaria given ACT",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{nDKVffS3ijX}",
+        "numeratorDescription": "clinical malaria given ACT",
+        "denominator": "#{K9K1G0XX4ax}",
+        "denominatorDescription": "Clinical Malaria",
+        "url": "",
+        "legendSet": null,
+        "id": "PFHeLBDLciz"
+    },
+    {
+        "name": "ACT Given - Total",
+        "created": "2013-10-09T05:39:48.018+0000",
+        "lastUpdated": "2013-10-09T05:39:48.023+0000",
+        "shortName": "ACT Given - Total",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "#{nDKVffS3ijX}+#{ouzURM9c1FI}",
+        "numeratorDescription": "ACT total",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "DHYTgg54tAE"
+    },
+    {
+        "name": "% of Antimalaria with mobile authentication service",
+        "created": "2013-10-09T05:42:18.021+0000",
+        "lastUpdated": "2013-10-09T05:42:18.026+0000",
+        "shortName": "&Antimalaria with MAS",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{XmWZSB5ggtp.apoCNSsgiy4}",
+        "numeratorDescription": "Antimalarials with scratch card",
+        "denominator": "#{XmWZSB5ggtp}",
+        "denominatorDescription": "Authentication service",
+        "url": "",
+        "legendSet": null,
+        "id": "LbRUm5ZRqHY"
+    },
+    {
+        "name": "% of Under 5 deaths attributable to Malaria",
+        "created": "2013-10-09T05:46:12.307+0000",
+        "lastUpdated": "2013-10-09T05:46:12.313+0000",
+        "shortName": "Under 5 deaths due to malaria",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{mz0LIaWBAz9.k5pHlvkYR3T}",
+        "numeratorDescription": "Malaria Under 5 deaths",
+        "denominator": "#{mz0LIaWBAz9}",
+        "denominatorDescription": "Under 5 deaths",
+        "url": "",
+        "legendSet": null,
+        "id": "ktsIGwM8eKk"
+    },
+    {
+        "name": "DPT Dropout Rate",
+        "created": "2013-03-12T12:05:18.592+0000",
+        "lastUpdated": "2013-12-15T16:32:31.294+0000",
+        "shortName": "DPT Dropout Rate",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "(#{WhNFfxoAA4P.Y2SrnZVI87k}+#{NYqZATC2zVQ.Y2SrnZVI87k}+#{xtZzSU7K3Kv})-(#{I8XeRBdgIGB.Y2SrnZVI87k}+#{ENl7E6JDTbF.Y2SrnZVI87k}+#{VWPqgRBwOJM})",
+        "numeratorDescription": "DPT1 - DPT3",
+        "denominator": "#{WhNFfxoAA4P.Y2SrnZVI87k}+#{NYqZATC2zVQ.Y2SrnZVI87k}+#{xtZzSU7K3Kv}",
+        "denominatorDescription": "DPT 1st Dose",
+        "url": "",
+        "legendSet": null,
+        "id": "WVf8Fw8kKyR"
+    },
+    {
+        "name": "Maternal mortality ratio(Facility)",
+        "created": "2013-03-09T15:51:08.319+0000",
+        "lastUpdated": "2013-12-15T16:32:55.761+0000",
+        "shortName": "MMR",
+        "annualized": false,
+        "indicatorType": {
+            "name": "per100K",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "F2vrwzAiRMl"
+        },
+        "numerator": "#{PJQ5Qd8OPck.Y2SrnZVI87k}",
+        "numeratorDescription": "Deaths due to pregnancy or delivery",
+        "denominator": "#{OE8idChbC45.Y2SrnZVI87k}+#{JFjIlj4UWlI.Y2SrnZVI87k}",
+        "denominatorDescription": "Live births",
+        "url": "",
+        "legendSet": null,
+        "id": "HH0iQLlqddM"
+    },
+    {
+        "name": "Underweight Rate (<5 years) - Facility",
+        "created": "2013-04-23T12:53:07.747+0000",
+        "lastUpdated": "2013-12-15T16:36:28.953+0000",
+        "shortName": "Underweight Rate",
+        "annualized": true,
+        "indicatorType": {
+            "name": "per1K",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "JbaBTD3mjuq"
+        },
+        "numerator": "#{DPFbFcYrO9d.Y2SrnZVI87k}+#{gRIPL5vAsel.Y2SrnZVI87k}+#{XcWlUTGQCv3}",
+        "numeratorDescription": "Underweight Children",
+        "denominator": "#{hfEGeN9upJg.Y2SrnZVI87k}+#{vazXT5H0oIq.Y2SrnZVI87k}+#{TCKBTltaIqq}",
+        "denominatorDescription": "Children Weighed",
+        "url": "",
+        "legendSet": null,
+        "id": "iXWVkRayCy9"
+    },
+    {
+        "name": "Average Lenght of Stay (Admissions)",
+        "created": "2013-09-21T21:18:48.857+0000",
+        "lastUpdated": "2013-12-15T16:39:42.040+0000",
+        "shortName": "Average Lenght of Stay (Admissions)",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Factor of 1",
+            "created": "2013-12-15T16:38:42.457+0000",
+            "lastUpdated": "2013-12-15T16:38:57.858+0000",
+            "id": "ZayFJdni6jm"
+        },
+        "numerator": "#{pePmO4bmizN.Y2SrnZVI87k}",
+        "numeratorDescription": "Inpatient days",
+        "denominator": "#{wGPpop3rz7i}+#{m4b3iu6YLrx.Y2SrnZVI87k}+#{TPas7fUU16Z.Y2SrnZVI87k}+#{oKGeZqdoX5L.Y2SrnZVI87k}+#{grq0wRJcNTt.Y2SrnZVI87k}+#{eYEMRzhsm7D.Y2SrnZVI87k}+#{LqEA9I9tQff.Y2SrnZVI87k}",
+        "denominatorDescription": "Inpatient Admissions",
+        "url": "",
+        "legendSet": null,
+        "id": "SYEG7b1TItB"
+    },
+    {
+        "name": "Tetanus Toxoid (2+) Coverage",
+        "created": "2013-09-21T21:47:10.289+0000",
+        "lastUpdated": "2013-12-15T16:47:53.144+0000",
+        "shortName": "TT2 Coverage",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{P9UzyqIAZFQ.SPeUoVk6oON}+#{bjkLguWtUrL.SPeUoVk6oON}+#{ikHNQlJpD2i.RLbGbeSEHBB}+#{eLV0nPE8N8J.SPeUoVk6oON}",
+        "numeratorDescription": "TT2 + Doses",
+        "denominator": "#{JiqRpGPcjXz.Y2SrnZVI87k}*C{KaP7QC5Fh3s}",
+        "denominatorDescription": "Population of Pregnant women",
+        "url": "",
+        "legendSet": null,
+        "id": "obcu03IYMEz"
+    },
+    {
+        "name": "DPT 1 Coverage",
+        "created": "2013-07-23T20:26:02.947+0000",
+        "lastUpdated": "2013-12-15T16:50:13.267+0000",
+        "shortName": "DPT 1 Coverage",
+        "annualized": true,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{WhNFfxoAA4P.Y2SrnZVI87k}+#{NYqZATC2zVQ.Y2SrnZVI87k}+#{xtZzSU7K3Kv.Knva5F6vpNi}+#{xtZzSU7K3Kv.Jf7HweYFAFM}",
+        "numeratorDescription": "DPT 1st Dose under 1 year",
+        "denominator": "#{JiqRpGPcjXz.Y2SrnZVI87k}*(0.05)",
+        "denominatorDescription": "Population under 1 year",
+        "url": "",
+        "legendSet": null,
+        "id": "F7IcUrZxi2Z"
+    },
+    {
+        "name": "Measles Dose Coverage",
+        "created": "2013-07-23T20:29:31.323+0000",
+        "lastUpdated": "2013-12-15T17:18:46.493+0000",
+        "shortName": "Measles Dose Coverage",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{dvDHdcIXxHR.Y2SrnZVI87k}+#{ewo1zqu52DA.Y2SrnZVI87k}+#{j6mCLL1X4yG.Knva5F6vpNi}+#{j6mCLL1X4yG.Jf7HweYFAFM}",
+        "numeratorDescription": "Measles Dose",
+        "denominator": "#{JiqRpGPcjXz.Y2SrnZVI87k}*0.05",
+        "denominatorDescription": "Population under 1 year",
+        "url": "",
+        "legendSet": null,
+        "id": "tb5NGUMB9dQ"
+    },
+    {
+        "name": "HBV 2 Coverage",
+        "created": "2013-12-15T17:06:18.788+0000",
+        "lastUpdated": "2013-12-16T15:45:59.396+0000",
+        "shortName": "HBV  2 Coverage",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{qDxUAqFTWOb.Knva5F6vpNi}+#{qDxUAqFTWOb.Jf7HweYFAFM}",
+        "numeratorDescription": "HBV 2 Dose",
+        "denominator": "C{iaIrPO7PaVn}*#{JiqRpGPcjXz.Y2SrnZVI87k}",
+        "denominatorDescription": "Under 1 Pop",
+        "url": "",
+        "legendSet": null,
+        "id": "k7TZGtTN2Md"
+    },
+    {
+        "name": "OPV 1 Coverage",
+        "created": "2013-12-15T17:12:04.134+0000",
+        "lastUpdated": "2013-12-16T15:46:46.149+0000",
+        "shortName": "OPV 1 Coverage",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{XqBKmk4DHSL.Jf7HweYFAFM}+#{XqBKmk4DHSL.Knva5F6vpNi}+#{Nd9TVQMONFI.Y2SrnZVI87k}+#{dBtT1kS6NSx.Y2SrnZVI87k}",
+        "numeratorDescription": "OPV 1 Dose",
+        "denominator": "C{iaIrPO7PaVn}*#{JiqRpGPcjXz.Y2SrnZVI87k}",
+        "denominatorDescription": "Under 1 pop",
+        "url": "",
+        "legendSet": null,
+        "id": "slvffucfWn0"
+    },
+    {
+        "name": "OPV 3 Coverage",
+        "created": "2013-12-15T17:13:55.664+0000",
+        "lastUpdated": "2013-12-16T15:47:22.548+0000",
+        "shortName": "OPV 3 Coverage",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{Uy1lC8lnfIv.Y2SrnZVI87k}+#{b8GU54mQEG1.Y2SrnZVI87k}+#{bKSVofVt1vy.Knva5F6vpNi}+#{bKSVofVt1vy.Jf7HweYFAFM}",
+        "numeratorDescription": "OPV 3",
+        "denominator": "C{iaIrPO7PaVn}*#{JiqRpGPcjXz.Y2SrnZVI87k}",
+        "denominatorDescription": "Under 1 Pop",
+        "url": "",
+        "legendSet": null,
+        "id": "gi9jd7BjHxq"
+    },
+    {
+        "name": "Penta 3 Coverage",
+        "created": "2013-12-15T17:01:33.068+0000",
+        "lastUpdated": "2013-12-16T15:50:37.136+0000",
+        "shortName": "Penta 3 Coverage",
+        "annualized": true,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{BFeSKtHhPKi.Knva5F6vpNi}+#{BFeSKtHhPKi.Jf7HweYFAFM}",
+        "numeratorDescription": "Penta 3 under 1",
+        "denominator": "C{iaIrPO7PaVn}*#{JiqRpGPcjXz.Y2SrnZVI87k}",
+        "denominatorDescription": "Under 1 year Pop",
+        "url": "",
+        "legendSet": null,
+        "id": "VRycpXG44y1"
+    },
+    {
+        "name": "PCV 3 Coverage",
+        "created": "2013-12-15T17:02:45.398+0000",
+        "lastUpdated": "2013-12-16T15:53:38.037+0000",
+        "shortName": "PCV  3 Coverage",
+        "annualized": true,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{WLY3o7VjBJj.Knva5F6vpNi}+#{WLY3o7VjBJj.Jf7HweYFAFM}",
+        "numeratorDescription": "PCV3 Under 1 year",
+        "denominator": "C{iaIrPO7PaVn}*#{JiqRpGPcjXz.Y2SrnZVI87k}",
+        "denominatorDescription": "Under 1 year Pop",
+        "url": "",
+        "legendSet": null,
+        "id": "dfBzw8zQDHk"
+    },
+    {
+        "name": "Yellow Fever Coverage",
+        "created": "2013-12-15T17:03:43.049+0000",
+        "lastUpdated": "2013-12-16T15:55:15.986+0000",
+        "shortName": "Yellow Fever Coverage",
+        "annualized": true,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{RcvtixFNivG.Knva5F6vpNi}+#{RcvtixFNivG.Jf7HweYFAFM}",
+        "numeratorDescription": "Yellow Fever under 1 year (Vaccine)",
+        "denominator": "C{iaIrPO7PaVn}*#{JiqRpGPcjXz.Y2SrnZVI87k}",
+        "denominatorDescription": "Under 1 year pop",
+        "url": "",
+        "legendSet": null,
+        "id": "RtXOV3xQvWT"
+    },
+    {
+        "name": "% Under 5 receiving LLIN",
+        "created": "2013-12-18T18:14:21.476+0000",
+        "lastUpdated": "2013-12-18T18:14:21.517+0000",
+        "shortName": "% Under 5 receiving LLIN",
+        "annualized": false,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{ZFgiCO6nyAP.Y2SrnZVI87k}",
+        "numeratorDescription": "Children U5 receiving LLIN",
+        "denominator": "#{Jc1WjNKrObY.y89wa2aI18G}+#{Jc1WjNKrObY.EeOmMSob3uj}+#{Jc1WjNKrObY.thjAejMEOxw}+#{Jc1WjNKrObY.CyyxhwJfSMe}+#{Jc1WjNKrObY.PCcBygZah1M}+#{Jc1WjNKrObY.R2LOEyK3TtS}",
+        "denominatorDescription": "Attendance ",
+        "url": "",
+        "legendSet": null,
+        "id": "JwWA5uLA3NV"
+    },
+    {
+        "name": "Institutional Delivery Rate",
+        "created": "2013-03-02T16:21:08.370+0000",
+        "lastUpdated": "2014-01-16T22:42:19.417+0000",
+        "shortName": "Institutional Delivery Rate",
+        "annualized": true,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{K6V8hnB7JNm.Y2SrnZVI87k}+#{zPa9mLmcjmW.Y2SrnZVI87k}+#{DP6NVky89ub.Y2SrnZVI87k}",
+        "numeratorDescription": "Facility Deliveries",
+        "denominator": "C{KaP7QC5Fh3s}*#{JiqRpGPcjXz.Y2SrnZVI87k}",
+        "denominatorDescription": "Expected Deliveries",
+        "url": "",
+        "legendSet": null,
+        "id": "uZ0YBCD74C8"
+    },
+    {
+        "name": "Contraceptive Prevalence Rate",
+        "created": "2013-09-21T21:21:35.250+0000",
+        "lastUpdated": "2014-01-16T22:44:56.059+0000",
+        "shortName": "Contraceptive Prevalence Rate",
+        "annualized": true,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{G5mKWErswJ0.Y2SrnZVI87k}",
+        "numeratorDescription": "Women using contraception",
+        "denominator": "#{JiqRpGPcjXz.Y2SrnZVI87k}*C{BFoE2VJnEW8}",
+        "denominatorDescription": "Population of Women of Reproductive Age",
+        "url": "",
+        "legendSet": null,
+        "id": "twQ4H0sl8lz"
+    },
+    {
+        "name": "Fully Immunised Coverage",
+        "created": "2014-01-16T22:52:49.221+0000",
+        "lastUpdated": "2014-01-16T22:52:49.301+0000",
+        "shortName": "Fully Immunised Coverage",
+        "description": "Percentage of children under 1 year that have completed the immunisation program.",
+        "annualized": true,
+        "indicatorType": {
+            "name": "%",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "d6nhIQxHiLe"
+        },
+        "numerator": "#{CvX3NUIe50P}+#{NVDpTyjeEY0.Y2SrnZVI87k}+#{bZmzE8KYlfs.Y2SrnZVI87k}",
+        "numeratorDescription": "Fully immunised children <1 year (2010 and 2013 data elements)",
+        "denominator": "#{JiqRpGPcjXz.Y2SrnZVI87k}*0.05",
+        "denominatorDescription": "Population <1 year",
+        "url": "",
+        "legendSet": null,
+        "id": "YoCBVw2Ek8Q"
+    },
+    {
+        "name": "Under 5 mortality rate (at facility, per 1k)",
+        "created": "2013-03-02T15:02:02.722+0000",
+        "lastUpdated": "2014-01-16T23:08:18.248+0000",
+        "shortName": "Under 5 mortality rate(per 1000)",
+        "annualized": false,
+        "indicatorType": {
+            "name": "per1K",
+            "created": "2012-02-18T01:29:35.458+0000",
+            "lastUpdated": "2012-02-18T01:29:35.458+0000",
+            "id": "JbaBTD3mjuq"
+        },
+        "numerator": "#{BY03RaJD6l5.y89wa2aI18G}+#{BY03RaJD6l5.thjAejMEOxw}+#{BY03RaJD6l5.PCcBygZah1M}+#{BY03RaJD6l5.EeOmMSob3uj}+#{BY03RaJD6l5.CyyxhwJfSMe}+#{BY03RaJD6l5.R2LOEyK3TtS}+#{e2vmQJjPrNF.Y2SrnZVI87k}+#{mrANoODK5lj.Y2SrnZVI87k}+#{s7xpODl8BGS.Y2SrnZVI87k}+#{XMgjoHFdm5c.Y2SrnZVI87k}+#{gN7MxE4sPCz.Y2SrnZVI87k}+#{zsGGlmaaavt.Y2SrnZVI87k}",
+        "numeratorDescription": "Deaths of Children under 5 years of age",
+        "denominator": "#{YjZiHDKMWCJ}+#{OE8idChbC45.Y2SrnZVI87k}+#{JFjIlj4UWlI.Y2SrnZVI87k}",
+        "denominatorDescription": "Live Births in the Facility ( Calculation contains elements from 2010 and 2013)",
+        "url": "",
+        "legendSet": null,
+        "id": "iIbhvOXScP5"
+    },
+    {
+        "name": "Stock Balance - Paracetamol_125g_Tablet",
+        "created": "2014-07-22T14:08:35.055+0000",
+        "lastUpdated": "2014-07-22T14:08:35.068+0000",
+        "shortName": "Stock Balance - Paracetamol_125g_Tablet",
+        "description": "Stock Balance for Paracetamol_125g_Tablet",
+        "annualized": false,
+        "indicatorType": {
+            "name": "Calculated Data Elements",
+            "created": "2012-04-24T09:22:30.265+0000",
+            "lastUpdated": "2012-04-24T09:22:30.265+0000",
+            "id": "ftrvO1fdxL1"
+        },
+        "numerator": "(#{KrLsteV6xtE}+#{KrLsteV6xtE.vkg7QslY5h2})-(#{KrLsteV6xtE.HVCxFIQTkWM}+#{KrLsteV6xtE.lzDHqIh10Ve}+#{KrLsteV6xtE.xtLJQtupONa})",
+        "numeratorDescription": "Stock Balance - Paracetamol_125g_Tablet",
+        "denominator": "1",
+        "denominatorDescription": "",
+        "url": "",
+        "legendSet": null,
+        "id": "LB7HtpYKF5P"
+    }
+], "indicatorGroups": [
+    {
+        "name": "Nutrition",
+        "created": "2012-12-19T14:24:48.092+0000",
+        "lastUpdated": "2013-04-25T20:49:46.571+0000",
+        "id": "URLGBkk3P8A",
+        "indicators": [
+            {
+                "name": "Underweight Rate (<5 years) - Facility",
+                "created": "2013-04-23T12:53:07.747+0000",
+                "lastUpdated": "2013-12-15T16:36:28.953+0000",
+                "id": "iXWVkRayCy9"
+            }
+        ]
+    },
+    {
+        "name": "Disease surveillance",
+        "created": "2013-03-09T16:03:47.525+0000",
+        "lastUpdated": "2013-09-17T19:43:16.027+0000",
+        "id": "C8Xhi8d3SU3"
+    },
+    {
+        "name": "Antenatal care",
+        "created": "2013-03-28T18:13:45.096+0000",
+        "lastUpdated": "2013-09-21T21:48:41.433+0000",
+        "id": "xudR3HPuRSZ",
+        "indicators": [
+            {
+                "name": "Tetanus Toxoid (2+) Coverage",
+                "created": "2013-09-21T21:47:10.289+0000",
+                "lastUpdated": "2013-12-15T16:47:53.144+0000",
+                "id": "obcu03IYMEz"
+            },
+            {
+                "name": "Antenatal 1st visits before 20 weeks rate",
+                "created": "2013-04-17T12:27:05.658+0000",
+                "lastUpdated": "2013-04-20T22:32:38.517+0000",
+                "id": "xIvjr5gGVpp"
+            },
+            {
+                "name": "ANC Anaemia Rate",
+                "created": "2013-04-17T12:26:12.911+0000",
+                "lastUpdated": "2013-04-20T22:32:38.503+0000",
+                "id": "BWjIm3FvPSS"
+            },
+            {
+                "name": "Antenatal Care Coverage( 4 Visits)",
+                "created": "2013-05-21T14:50:05.188+0000",
+                "lastUpdated": "2013-05-21T14:50:05.239+0000",
+                "id": "NO1ASEzyurW"
+            },
+            {
+                "name": "Fresh Still Birth Rate",
+                "created": "2013-03-02T16:10:29.660+0000",
+                "lastUpdated": "2013-09-17T19:44:31.269+0000",
+                "id": "kFpeaNR08cY"
+            },
+            {
+                "name": "Antenatal Care Coverage( 1 Visit)",
+                "created": "2013-03-28T18:12:27.961+0000",
+                "lastUpdated": "2013-05-21T14:47:22.364+0000",
+                "id": "beZ1WYNONnH"
+            }
+        ]
+    },
+    {
+        "name": "NHMIS version 2010 - Dataelement Totals",
+        "created": "2013-03-09T15:50:50.423+0000",
+        "lastUpdated": "2013-09-21T21:51:50.808+0000",
+        "id": "Z4vIFa8PBq7",
+        "indicators": [
+            {
+                "name": "X_ART newly started ART during period - total",
+                "created": "2013-04-17T12:28:22.741+0000",
+                "lastUpdated": "2013-04-20T22:32:38.529+0000",
+                "id": "WO5OluTlssa"
+            },
+            {
+                "name": "X_Pneumonia 5 years and older",
+                "created": "2012-10-08T07:51:57.389+0000",
+                "lastUpdated": "2013-05-03T14:02:15.743+0000",
+                "id": "Hy7FPE9VoKG"
+            },
+            {
+                "name": "X_Individuals >= 5 years with uncomplicated malaria -total",
+                "created": "2012-10-08T07:51:57.434+0000",
+                "lastUpdated": "2013-05-03T13:57:17.490+0000",
+                "id": "Y0DB9l8egif"
+            },
+            {
+                "name": "X_DPT 1 given under 1 year (total)",
+                "created": "2012-12-18T17:14:45.409+0000",
+                "lastUpdated": "2013-05-03T13:54:31.119+0000",
+                "id": "S3OHlCplcH8"
+            },
+            {
+                "name": "X_Attendance 0 - 28 days - total",
+                "created": "2013-04-17T12:29:05.242+0000",
+                "lastUpdated": "2013-04-20T22:32:38.078+0000",
+                "id": "eal2TYDI1ON"
+            },
+            {
+                "name": "X_Admissions 5-14 years - total",
+                "created": "2013-04-17T12:25:05.334+0000",
+                "lastUpdated": "2013-04-20T22:32:38.047+0000",
+                "id": "nquFwyMqgGN"
+            },
+            {
+                "name": "X_New road traffic accident case",
+                "created": "2012-10-08T07:51:57.461+0000",
+                "lastUpdated": "2013-05-03T13:58:56.171+0000",
+                "id": "R9qPszrxJM2"
+            },
+            {
+                "name": "X_New Sickle Cell Disease Case",
+                "created": "2012-10-08T07:51:57.457+0000",
+                "lastUpdated": "2013-05-03T14:00:49.120+0000",
+                "id": "QyzJMzpjexR"
+            },
+            {
+                "name": "X_Newborns with neonatal jaundice",
+                "created": "2012-10-08T07:51:57.480+0000",
+                "lastUpdated": "2013-05-03T14:00:25.498+0000",
+                "id": "r1yZdriuaqY"
+            },
+            {
+                "name": "X_Deaths of children aged 5-9 years - total",
+                "created": "2012-10-08T07:51:57.450+0000",
+                "lastUpdated": "2013-05-03T13:54:03.648+0000",
+                "id": "R0rZ6t6c4qo"
+            },
+            {
+                "name": "X_DPT 3 given under 1 year (total)",
+                "created": "2012-12-18T17:15:30.020+0000",
+                "lastUpdated": "2013-05-03T13:55:07.206+0000",
+                "id": "HXTgxRaeM9p"
+            },
+            {
+                "name": "X_Pertussis - suspected case",
+                "created": "2012-10-08T07:51:57.387+0000",
+                "lastUpdated": "2013-05-03T14:01:59.995+0000",
+                "id": "S1YIft3ahVl"
+            },
+            {
+                "name": "X_New Coronary Heart Disease",
+                "created": "2012-10-08T07:51:57.452+0000",
+                "lastUpdated": "2013-05-03T13:59:53.994+0000",
+                "id": "KT17NqfDAp8"
+            },
+            {
+                "name": "X_Diarrhoea under 5 years - new case",
+                "created": "2012-10-08T07:51:57.362+0000",
+                "lastUpdated": "2013-05-03T13:54:17.318+0000",
+                "id": "IaBaG0F7I8I"
+            },
+            {
+                "name": "X_Live birth 2500g and above",
+                "created": "2012-10-08T07:51:57.468+0000",
+                "lastUpdated": "2013-05-03T13:59:05.999+0000",
+                "id": "LfXFqjymb1g"
+            },
+            {
+                "name": "X_Deliveries - Total",
+                "created": "2012-10-08T07:51:57.441+0000",
+                "lastUpdated": "2013-05-03T13:54:40.587+0000",
+                "id": "sq1t1xsNl1J"
+            },
+            {
+                "name": "X_Cerebro Spinal Meningitis new Total",
+                "created": "2012-04-23T23:00:00.000+0000",
+                "lastUpdated": "2013-05-03T13:49:55.080+0000",
+                "id": "WuDuMAPrlsi"
+            },
+            {
+                "name": "X_Admissions 15 years and older - total",
+                "created": "2013-04-17T12:24:32.849+0000",
+                "lastUpdated": "2013-04-20T22:32:38.041+0000",
+                "id": "x72y0X8AcQ1"
+            },
+            {
+                "name": "X_Fully Immunised Children under 1 year (total)",
+                "created": "2012-12-18T17:28:09.396+0000",
+                "lastUpdated": "2013-05-03T13:56:06.808+0000",
+                "id": "aD69v4LYNl0"
+            },
+            {
+                "name": "X_New diabetus mellitus case",
+                "created": "2012-10-08T07:51:57.453+0000",
+                "lastUpdated": "2013-05-03T14:03:37.416+0000",
+                "id": "fxhMwCJ7iLf"
+            },
+            {
+                "name": "X_Newborns with neonatal sepsis",
+                "created": "2012-10-08T07:51:57.483+0000",
+                "lastUpdated": "2013-05-03T14:01:01.319+0000",
+                "id": "T5VROpzDBKj"
+            },
+            {
+                "name": "X_Cholera - new case",
+                "created": "2012-10-08T07:51:57.367+0000",
+                "lastUpdated": "2013-05-03T13:52:31.446+0000",
+                "id": "D8vO5hhah7B"
+            },
+            {
+                "name": "X_Leprosy on treatment",
+                "created": "2012-10-08T07:51:57.378+0000",
+                "lastUpdated": "2013-05-03T13:57:44.629+0000",
+                "id": "oNSScPPQcyj"
+            },
+            {
+                "name": "X_ART patients receiving ARV refill - total",
+                "created": "2013-04-17T12:28:43.407+0000",
+                "lastUpdated": "2013-04-20T22:32:38.071+0000",
+                "id": "xbS01a5uTwq"
+            },
+            {
+                "name": "X_Deaths of babies aged 12-59 months - total",
+                "created": "2012-10-08T07:51:57.429+0000",
+                "lastUpdated": "2013-05-03T13:53:35.337+0000",
+                "id": "nCg6DNUhTyT"
+            },
+            {
+                "name": "X_Yellow Fever 1st dose under 1 year - total",
+                "created": "2012-10-08T07:51:57.436+0000",
+                "lastUpdated": "2013-07-26T09:25:45.493+0000",
+                "id": "tTgWBQdRy4r"
+            },
+            {
+                "name": "X_New hypertension case",
+                "created": "2012-10-08T07:51:57.455+0000",
+                "lastUpdated": "2013-05-03T14:00:35.994+0000",
+                "id": "LXuBOrUdde1"
+            },
+            {
+                "name": "X_BCG under 1 year given (total)",
+                "created": "2013-04-17T12:31:49.839+0000",
+                "lastUpdated": "2013-04-20T22:32:38.536+0000",
+                "id": "E7iRFoNVP3h"
+            },
+            {
+                "name": "X_Deaths of babies aged 29 days - 11 months - total",
+                "created": "2012-10-08T07:51:57.448+0000",
+                "lastUpdated": "2013-05-03T13:53:48.375+0000",
+                "id": "X0uP5Qz1PZs"
+            },
+            {
+                "name": "X_HepB 3rd dose under 1 year",
+                "created": "2012-10-08T07:51:57.432+0000",
+                "lastUpdated": "2013-05-03T13:56:46.338+0000",
+                "id": "EEgvs9jTUoN"
+            },
+            {
+                "name": "X_ART newly started ART during period - male under 15 total",
+                "created": "2013-04-17T12:27:59.281+0000",
+                "lastUpdated": "2013-04-20T22:32:38.059+0000",
+                "id": "JilBO2w0Vwf"
+            },
+            {
+                "name": "X_Measles under 5 years - new case",
+                "created": "2012-10-08T07:51:57.382+0000",
+                "lastUpdated": "2013-05-03T13:59:19.416+0000",
+                "id": "WERZlPh39GU"
+            },
+            {
+                "name": "X_Attendance 15 years and older -total",
+                "created": "2013-04-17T12:29:55.148+0000",
+                "lastUpdated": "2013-04-20T22:32:38.089+0000",
+                "id": "KTkXF4Fpl2c"
+            },
+            {
+                "name": "X_Still birth",
+                "created": "2012-10-08T07:51:57.471+0000",
+                "lastUpdated": "2013-05-03T14:02:51.281+0000",
+                "id": "q6PWy7MtniI"
+            },
+            {
+                "name": "X_Poliomyelitis - suspected case",
+                "created": "2012-10-08T07:51:57.380+0000",
+                "lastUpdated": "2013-05-03T14:03:04.453+0000",
+                "id": "dgH4plVMrn3"
+            },
+            {
+                "name": "X_Condoms distributed (sachet)",
+                "created": "2012-10-08T07:51:57.392+0000",
+                "lastUpdated": "2013-05-03T13:52:46.493+0000",
+                "id": "YH4YimdPdPd"
+            },
+            {
+                "name": "X_Antenatal 1st visit - Total",
+                "created": "2013-04-17T12:26:32.677+0000",
+                "lastUpdated": "2013-04-20T22:32:38.509+0000",
+                "id": "joWyNIq0XtY"
+            },
+            {
+                "name": "X_Attendance 29 days - 11 months - total",
+                "created": "2013-04-17T12:30:20.058+0000",
+                "lastUpdated": "2013-04-20T22:32:38.095+0000",
+                "id": "WrjvahlFiZw"
+            },
+            {
+                "name": "X_Newborns with neonatal tetanus",
+                "created": "2012-10-08T07:51:57.408+0000",
+                "lastUpdated": "2013-05-03T14:03:28.435+0000",
+                "id": "KPotoKl0dWp"
+            },
+            {
+                "name": "X_Facility Attendance (total)",
+                "created": "2012-12-18T17:21:46.682+0000",
+                "lastUpdated": "2013-05-03T13:54:55.881+0000",
+                "id": "X1TGmLWczOG"
+            },
+            {
+                "name": "X_Yellow fever - new case",
+                "created": "2012-10-08T07:51:57.369+0000",
+                "lastUpdated": "2013-07-26T09:25:04.162+0000",
+                "id": "i0N9LBsviwb"
+            },
+            {
+                "name": "X_OPV 3rd dose under 1 year",
+                "created": "2012-10-08T07:51:57.412+0000",
+                "lastUpdated": "2013-05-03T14:01:32.426+0000",
+                "id": "Wvl1IIorhZu"
+            },
+            {
+                "name": "X_HCT Individuals tested HIV positive - total",
+                "created": "2012-10-08T07:51:57.406+0000",
+                "lastUpdated": "2013-05-03T13:56:25.772+0000",
+                "id": "pmasftBfBWA"
+            },
+            {
+                "name": "X_Deaths of babies aged 0 -28 days - total",
+                "created": "2012-10-08T07:51:57.446+0000",
+                "lastUpdated": "2013-05-03T13:53:23.663+0000",
+                "id": "LSIT72wDMFe"
+            },
+            {
+                "name": "X_HepB 1st dose under 1 year",
+                "created": "2012-10-08T07:51:57.431+0000",
+                "lastUpdated": "2013-05-03T13:56:36.303+0000",
+                "id": "neTZYRs5bPN"
+            },
+            {
+                "name": "X_Child under 6 months exclusively breast fed",
+                "created": "2012-10-08T07:51:57.462+0000",
+                "lastUpdated": "2013-05-03T13:50:39.157+0000",
+                "id": "a6yBdMTT7sW"
+            },
+            {
+                "name": "X_Children (6-59 months) given vitamin A - total",
+                "created": "2012-10-08T07:51:57.466+0000",
+                "lastUpdated": "2013-05-03T13:50:53.758+0000",
+                "id": "ZSIBFJaCbuy"
+            },
+            {
+                "name": "X_Attendance 12 months - 59 months - total",
+                "created": "2013-04-17T12:29:27.287+0000",
+                "lastUpdated": "2013-04-20T22:32:38.083+0000",
+                "id": "TqwS8ETuHTk"
+            },
+            {
+                "name": "X_Individuals 15-49 years using modern contraceptives",
+                "created": "2012-10-08T07:51:57.390+0000",
+                "lastUpdated": "2013-05-03T13:56:59.162+0000",
+                "id": "K2CFGOXE3fV"
+            },
+            {
+                "name": "X_Measles given under 1 year (total)",
+                "created": "2012-12-18T17:17:47.978+0000",
+                "lastUpdated": "2013-05-03T13:58:20.858+0000",
+                "id": "m8lbcyQDt5y"
+            },
+            {
+                "name": "X_Pneumonia under 5 years - new case",
+                "created": "2012-10-08T07:51:57.363+0000",
+                "lastUpdated": "2013-05-03T14:02:40.775+0000",
+                "id": "x4dV23esrSy"
+            },
+            {
+                "name": "X_Live birth under 2500g",
+                "created": "2012-10-08T07:51:57.478+0000",
+                "lastUpdated": "2013-05-03T13:58:31.783+0000",
+                "id": "l3SKQ5xMnpf"
+            },
+            {
+                "name": "X_Facility Attendance < 5 years (total)",
+                "created": "2012-12-18T17:26:14.605+0000",
+                "lastUpdated": "2013-05-03T13:55:21.039+0000",
+                "id": "zEwYwNjupTr"
+            },
+            {
+                "name": "X_Onchocerciasis - suspected case",
+                "created": "2012-10-08T07:51:57.385+0000",
+                "lastUpdated": "2013-05-03T14:03:17.246+0000",
+                "id": "WZcuKh96Gnh"
+            },
+            {
+                "name": "X_Guinea worm - suspected case",
+                "created": "2012-10-08T07:51:57.371+0000",
+                "lastUpdated": "2013-05-03T13:55:32.757+0000",
+                "id": "Eq9ktEuG4qH"
+            },
+            {
+                "name": "X_Measles - new case",
+                "created": "2012-10-08T07:51:57.365+0000",
+                "lastUpdated": "2013-05-03T13:58:07.493+0000",
+                "id": "W906uaTJ7H3"
+            },
+            {
+                "name": "X_Suspected HIV/AIDS clinical case",
+                "created": "2012-10-08T07:51:57.376+0000",
+                "lastUpdated": "2013-05-03T14:01:49.190+0000",
+                "id": "dqRGXO7rRV4"
+            },
+            {
+                "name": "X_Children aged 0-59 months weighed",
+                "created": "2012-10-08T07:51:57.464+0000",
+                "lastUpdated": "2013-05-03T13:51:48.038+0000",
+                "id": "XscbqBNv5ei"
+            },
+            {
+                "name": "X_Children < 5 years with severe malaria - total",
+                "created": "2012-10-08T07:51:57.439+0000",
+                "lastUpdated": "2013-05-03T13:51:07.655+0000",
+                "id": "SgzoXthdRyv"
+            },
+            {
+                "name": "X_Children aged 0-59 months weighing below bottom line",
+                "created": "2012-10-08T07:51:57.485+0000",
+                "lastUpdated": "2013-05-03T13:52:15.432+0000",
+                "id": "rHgWpfOdTfI"
+            },
+            {
+                "name": "X_Dysentery - suspected case",
+                "created": "2012-10-08T07:51:57.373+0000",
+                "lastUpdated": "2013-05-03T13:55:56.101+0000",
+                "id": "RL0TqGFuodd"
+            },
+            {
+                "name": "X_HCT Individuals HIV counseled tested and received results - total",
+                "created": "2012-10-08T07:51:57.403+0000",
+                "lastUpdated": "2013-05-03T13:56:15.661+0000",
+                "id": "eQcljLkfCjR"
+            },
+            {
+                "name": "X_Children < 5 years with uncomplicated malaria receiving ACT- total",
+                "created": "2012-10-08T07:51:57.489+0000",
+                "lastUpdated": "2013-05-03T13:51:23.159+0000",
+                "id": "bw5oLVxPcMB"
+            },
+            {
+                "name": "X_Deaths of adults aged 20+ years - total",
+                "created": "2012-10-08T07:51:57.445+0000",
+                "lastUpdated": "2013-05-03T13:53:11.524+0000",
+                "id": "RoARHVcKk3Z"
+            },
+            {
+                "name": "X_Individuals >= 5 years with uncomplicated malaria receiving ACT- total",
+                "created": "2012-10-08T07:51:57.438+0000",
+                "lastUpdated": "2013-05-03T13:57:29.008+0000",
+                "id": "jj2Q8y3ZK5K"
+            },
+            {
+                "name": "X_Attendance 5 - 14 years - total",
+                "created": "2012-10-08T07:51:57.404+0000",
+                "lastUpdated": "2013-05-03T13:50:16.351+0000",
+                "id": "u31sWX0nmWS"
+            },
+            {
+                "name": "X_Deaths of adolescents aged 10-19 years - total",
+                "created": "2012-10-08T07:51:57.443+0000",
+                "lastUpdated": "2013-05-03T13:52:57.395+0000",
+                "id": "PJ3hmDxNt0F"
+            },
+            {
+                "name": "X_ART newly started ART during period - female under 15 total",
+                "created": "2013-04-17T12:27:41.406+0000",
+                "lastUpdated": "2013-04-20T22:32:38.053+0000",
+                "id": "jB6GTgoeVaD"
+            },
+            {
+                "name": "X_Admissions 0-4 years - total",
+                "created": "2013-04-17T12:24:10.290+0000",
+                "lastUpdated": "2013-04-20T22:32:38.497+0000",
+                "id": "DsxANS5B2St"
+            },
+            {
+                "name": "X_Live births (total)",
+                "created": "2012-12-18T17:33:55.966+0000",
+                "lastUpdated": "2013-05-03T13:57:53.606+0000",
+                "id": "IFmNZEG5Oer"
+            },
+            {
+                "name": "X_Hepatitis - suspected case",
+                "created": "2012-10-08T07:51:57.374+0000",
+                "lastUpdated": "2013-05-03T13:55:45.599+0000",
+                "id": "rZyop1kUQ4O"
+            },
+            {
+                "name": "X_OPV 1st dose under 1 year",
+                "created": "2012-10-08T07:51:57.427+0000",
+                "lastUpdated": "2013-05-03T14:02:28.280+0000",
+                "id": "FtNWPi9Zp6d"
+            },
+            {
+                "name": "X_Children < 5 years with uncomplicated malaria - total",
+                "created": "2012-10-08T07:51:57.491+0000",
+                "lastUpdated": "2013-05-03T13:52:01.257+0000",
+                "id": "sPT5zOaoyjP"
+            },
+            {
+                "name": "X_New home accident case",
+                "created": "2012-10-08T07:51:57.459+0000",
+                "lastUpdated": "2013-05-03T13:59:32.991+0000",
+                "id": "yPNdkGe0NAJ"
+            }
+        ]
+    },
+    {
+        "name": "Labour and Delivery",
+        "created": "2013-09-21T21:53:32.190+0000",
+        "lastUpdated": "2013-09-21T21:53:32.190+0000",
+        "id": "dGDpbzzQWf6",
+        "indicators": [
+            {
+                "name": "Maternal mortality ratio(Facility)",
+                "created": "2013-03-09T15:51:08.319+0000",
+                "lastUpdated": "2013-12-15T16:32:55.761+0000",
+                "id": "HH0iQLlqddM"
+            },
+            {
+                "name": "Institutional Delivery Rate",
+                "created": "2013-03-02T16:21:08.370+0000",
+                "lastUpdated": "2014-01-16T22:42:19.417+0000",
+                "id": "uZ0YBCD74C8"
+            },
+            {
+                "name": "Caesarian Delivery Rate",
+                "created": "2013-09-21T21:26:13.035+0000",
+                "lastUpdated": "2013-09-21T21:26:13.041+0000",
+                "id": "gyEsWwfA7Ww"
+            },
+            {
+                "name": "Fresh Still Birth Rate",
+                "created": "2013-03-02T16:10:29.660+0000",
+                "lastUpdated": "2013-09-17T19:44:31.269+0000",
+                "id": "kFpeaNR08cY"
+            },
+            {
+                "name": "Low Birth Weight Rate",
+                "created": "2013-03-02T16:45:09.283+0000",
+                "lastUpdated": "2013-09-17T19:44:31.273+0000",
+                "id": "KtPaxhsM4cz"
+            }
+        ]
+    },
+    {
+        "name": "Utilisation",
+        "created": "2013-03-09T16:12:59.154+0000",
+        "lastUpdated": "2013-09-21T21:55:06.946+0000",
+        "id": "iqDHf5ALn8i",
+        "indicators": [
+            {
+                "name": "Average Lenght of Stay (Admissions)",
+                "created": "2013-09-21T21:18:48.857+0000",
+                "lastUpdated": "2013-12-15T16:39:42.040+0000",
+                "id": "SYEG7b1TItB"
+            },
+            {
+                "name": "Bed Occupancy Rate",
+                "created": "2013-03-02T16:23:45.373+0000",
+                "lastUpdated": "2013-04-20T22:32:38.449+0000",
+                "id": "WU44C0TDRUA"
+            }
+        ]
+    },
+    {
+        "name": "Mortality",
+        "created": "2013-03-09T15:59:46.574+0000",
+        "lastUpdated": "2013-09-21T21:56:35.807+0000",
+        "id": "RSpdIG0Jszj",
+        "indicators": [
+            {
+                "name": "Maternal mortality ratio(Facility)",
+                "created": "2013-03-09T15:51:08.319+0000",
+                "lastUpdated": "2013-12-15T16:32:55.761+0000",
+                "id": "HH0iQLlqddM"
+            },
+            {
+                "name": "Infant Mortality Rate",
+                "created": "2013-03-02T15:06:40.593+0000",
+                "lastUpdated": "2013-09-17T19:44:18.259+0000",
+                "id": "kC9iLgI1Wlq"
+            },
+            {
+                "name": "Under 5 mortality rate (at facility, per 1k)",
+                "created": "2013-03-02T15:02:02.722+0000",
+                "lastUpdated": "2014-01-16T23:08:18.248+0000",
+                "id": "iIbhvOXScP5"
+            }
+        ]
+    },
+    {
+        "name": "HIV/AIDS care and treatment",
+        "created": "2013-03-09T16:05:30.321+0000",
+        "lastUpdated": "2013-09-24T08:15:49.187+0000",
+        "id": "kGEWqAvHVtz",
+        "indicators": [
+            {
+                "name": "HIV Prevalence (Pregnant Women)",
+                "created": "2013-09-24T08:12:04.846+0000",
+                "lastUpdated": "2013-09-24T08:12:04.887+0000",
+                "id": "VonaMB9LI1d"
+            },
+            {
+                "name": "HIV Prevalence (Facility)",
+                "created": "2013-03-02T16:30:05.659+0000",
+                "lastUpdated": "2013-09-24T08:18:58.373+0000",
+                "id": "tfhVcNTd2EC"
+            }
+        ]
+    },
+    {
+        "name": "Family planning",
+        "created": "2013-03-09T16:04:34.099+0000",
+        "lastUpdated": "2013-12-15T17:17:43.815+0000",
+        "id": "yVPu21sDRA1",
+        "indicators": [
+            {
+                "name": "Couple Years Protection(CYP)",
+                "created": "2013-03-02T16:17:15.218+0000",
+                "lastUpdated": "2013-09-17T19:44:18.271+0000",
+                "id": "oI4V3jXAWdB"
+            },
+            {
+                "name": "Contraceptive Prevalence Rate",
+                "created": "2013-09-21T21:21:35.250+0000",
+                "lastUpdated": "2014-01-16T22:44:56.059+0000",
+                "id": "twQ4H0sl8lz"
+            }
+        ]
+    },
+    {
+        "name": "Immunization",
+        "created": "2013-03-09T16:08:13.078+0000",
+        "lastUpdated": "2013-12-16T15:48:39.492+0000",
+        "id": "vw7FV0jmKGr",
+        "indicators": [
+            {
+                "name": "OPV 3 Coverage",
+                "created": "2013-12-15T17:13:55.664+0000",
+                "lastUpdated": "2013-12-16T15:47:22.548+0000",
+                "id": "gi9jd7BjHxq"
+            },
+            {
+                "name": "DPT Dropout Rate",
+                "created": "2013-03-12T12:05:18.592+0000",
+                "lastUpdated": "2013-12-15T16:32:31.294+0000",
+                "id": "WVf8Fw8kKyR"
+            },
+            {
+                "name": "DPT 3 Coverage",
+                "created": "2013-07-23T20:27:39.252+0000",
+                "lastUpdated": "2013-07-23T20:27:39.262+0000",
+                "id": "AErjqVmK3pZ"
+            },
+            {
+                "name": "Yellow Fever Coverage",
+                "created": "2013-12-15T17:03:43.049+0000",
+                "lastUpdated": "2013-12-16T15:55:15.986+0000",
+                "id": "RtXOV3xQvWT"
+            },
+            {
+                "name": "BCG Coverage",
+                "created": "2013-07-23T20:18:33.440+0000",
+                "lastUpdated": "2013-07-26T09:27:31.545+0000",
+                "id": "ZeMXMabbR4C"
+            },
+            {
+                "name": "DPT 1 Coverage",
+                "created": "2013-07-23T20:26:02.947+0000",
+                "lastUpdated": "2013-12-15T16:50:13.267+0000",
+                "id": "F7IcUrZxi2Z"
+            },
+            {
+                "name": "PCV 3 Coverage",
+                "created": "2013-12-15T17:02:45.398+0000",
+                "lastUpdated": "2013-12-16T15:53:38.037+0000",
+                "id": "dfBzw8zQDHk"
+            },
+            {
+                "name": "HBV 2 Coverage",
+                "created": "2013-12-15T17:06:18.788+0000",
+                "lastUpdated": "2013-12-16T15:45:59.396+0000",
+                "id": "k7TZGtTN2Md"
+            },
+            {
+                "name": "Measles Dose Coverage",
+                "created": "2013-07-23T20:29:31.323+0000",
+                "lastUpdated": "2013-12-15T17:18:46.493+0000",
+                "id": "tb5NGUMB9dQ"
+            },
+            {
+                "name": "Penta 3 Coverage",
+                "created": "2013-12-15T17:01:33.068+0000",
+                "lastUpdated": "2013-12-16T15:50:37.136+0000",
+                "id": "VRycpXG44y1"
+            },
+            {
+                "name": "OPV 1 Coverage",
+                "created": "2013-12-15T17:12:04.134+0000",
+                "lastUpdated": "2013-12-16T15:46:46.149+0000",
+                "id": "slvffucfWn0"
+            }
+        ]
+    },
+    {
+        "name": "Malaria",
+        "created": "2012-12-19T14:35:40.798+0000",
+        "lastUpdated": "2013-12-18T18:15:58.764+0000",
+        "id": "rqG9iIQppgX",
+        "indicators": [
+            {
+                "name": "% of Antenatal 1st Visits receiving IPT1",
+                "created": "2013-10-07T02:21:48.899+0000",
+                "lastUpdated": "2013-10-07T02:21:48.974+0000",
+                "id": "pPTpnHWnpTu"
+            },
+            {
+                "name": "LLIN given - Total",
+                "created": "2013-10-07T02:25:31.778+0000",
+                "lastUpdated": "2013-10-07T02:25:31.783+0000",
+                "id": "IZgNib2WHSD"
+            },
+            {
+                "name": "% of suspected malaria receiving parasitological test",
+                "created": "2013-10-09T05:02:09.452+0000",
+                "lastUpdated": "2013-10-09T05:02:09.457+0000",
+                "id": "mWT59jwbd9c"
+            },
+            {
+                "name": "% Under 5 receiving LLIN",
+                "created": "2013-12-18T18:14:21.476+0000",
+                "lastUpdated": "2013-12-18T18:14:21.517+0000",
+                "id": "JwWA5uLA3NV"
+            },
+            {
+                "name": "% of Under 5 deaths attributable to Malaria",
+                "created": "2013-10-09T05:46:12.307+0000",
+                "lastUpdated": "2013-10-09T05:46:12.313+0000",
+                "id": "ktsIGwM8eKk"
+            },
+            {
+                "name": "% of Malaria cases clinically diagnosed",
+                "created": "2013-10-09T04:55:24.284+0000",
+                "lastUpdated": "2013-10-09T04:55:24.289+0000",
+                "id": "vYRF9XQAt6t"
+            },
+            {
+                "name": "% of Fever cases Tested with RDT",
+                "created": "2013-10-07T02:30:04.156+0000",
+                "lastUpdated": "2013-10-07T02:30:04.166+0000",
+                "id": "quCqGMTBTHi"
+            },
+            {
+                "name": "% of Fever cases tested positive with Microscopy",
+                "created": "2013-10-09T04:47:26.241+0000",
+                "lastUpdated": "2013-10-09T04:47:26.280+0000",
+                "id": "WAywN48snnd"
+            },
+            {
+                "name": "% of Fever cases Tested with Microscopy",
+                "created": "2013-10-09T04:49:03.633+0000",
+                "lastUpdated": "2013-10-09T04:49:03.641+0000",
+                "id": "C2uGy964KNe"
+            },
+            {
+                "name": "% of clinically diagnosed malaria given ACT",
+                "created": "2013-10-09T05:38:38.700+0000",
+                "lastUpdated": "2013-10-09T05:38:38.705+0000",
+                "id": "PFHeLBDLciz"
+            },
+            {
+                "name": "% of Antimalaria with mobile authentication service",
+                "created": "2013-10-09T05:42:18.021+0000",
+                "lastUpdated": "2013-10-09T05:42:18.026+0000",
+                "id": "LbRUm5ZRqHY"
+            },
+            {
+                "name": "% Confirmed uncomplicated Malaria",
+                "created": "2013-10-09T04:59:32.624+0000",
+                "lastUpdated": "2013-10-09T04:59:32.630+0000",
+                "id": "IDvOsgRb9vK"
+            },
+            {
+                "name": "% of Fever cases tested positive with RDT",
+                "created": "2013-10-07T02:33:01.508+0000",
+                "lastUpdated": "2013-10-07T02:33:01.513+0000",
+                "id": "l2eIpdluuTI"
+            },
+            {
+                "name": "ACT Given - Total",
+                "created": "2013-10-09T05:39:48.018+0000",
+                "lastUpdated": "2013-10-09T05:39:48.023+0000",
+                "id": "DHYTgg54tAE"
+            },
+            {
+                "name": "% of confirmed uncomplicated malaria given ACT",
+                "created": "2013-10-09T05:08:19.422+0000",
+                "lastUpdated": "2013-10-09T05:08:19.427+0000",
+                "id": "acmdhxLWZb2"
+            }
+        ]
+    },
+    {
+        "name": "Laboratory Services",
+        "created": "2013-03-09T16:09:17.580+0000",
+        "lastUpdated": "2013-12-31T11:27:09.028+0000",
+        "id": "UOWnv3IO0iA"
+    },
+    {
+        "name": " Maternal Health ",
+        "created": "2013-03-09T16:10:47.738+0000",
+        "lastUpdated": "2013-12-31T11:27:26.776+0000",
+        "id": "G8zqoYrqA6N",
+        "indicators": [
+            {
+                "name": "Maternal mortality ratio(Facility)",
+                "created": "2013-03-09T15:51:08.319+0000",
+                "lastUpdated": "2013-12-15T16:32:55.761+0000",
+                "id": "HH0iQLlqddM"
+            },
+            {
+                "name": "Institutional Delivery Rate",
+                "created": "2013-03-02T16:21:08.370+0000",
+                "lastUpdated": "2014-01-16T22:42:19.417+0000",
+                "id": "uZ0YBCD74C8"
+            },
+            {
+                "name": "Fresh Still Birth Rate",
+                "created": "2013-03-02T16:10:29.660+0000",
+                "lastUpdated": "2013-09-17T19:44:31.269+0000",
+                "id": "kFpeaNR08cY"
+            },
+            {
+                "name": "Low Birth Weight Rate",
+                "created": "2013-03-02T16:45:09.283+0000",
+                "lastUpdated": "2013-09-17T19:44:31.273+0000",
+                "id": "KtPaxhsM4cz"
+            }
+        ]
+    },
+    {
+        "name": "Child Health ",
+        "created": "2013-03-09T16:02:28.491+0000",
+        "lastUpdated": "2013-12-31T11:28:12.412+0000",
+        "id": "Yp1g7obDL7h",
+        "indicators": [
+            {
+                "name": "Infant Mortality Rate",
+                "created": "2013-03-02T15:06:40.593+0000",
+                "lastUpdated": "2013-09-17T19:44:18.259+0000",
+                "id": "kC9iLgI1Wlq"
+            },
+            {
+                "name": "Under 5 mortality rate (at facility, per 1k)",
+                "created": "2013-03-02T15:02:02.722+0000",
+                "lastUpdated": "2014-01-16T23:08:18.248+0000",
+                "id": "iIbhvOXScP5"
+            }
+        ]
+    }
+], "indicatorGroupSets": [
+    {
+        "name": "Maternal and Child health",
+        "created": "2013-03-09T16:15:21.580+0000",
+        "lastUpdated": "2013-09-21T21:49:20.974+0000",
+        "description": "indicators related to  maternal and child health for children 0 to under 5 years",
+        "compulsory": false,
+        "id": "FgMrDW2Qb2u",
+        "indicatorGroups": [
+            {
+                "name": " Maternal Health ",
+                "created": "2013-03-09T16:10:47.738+0000",
+                "lastUpdated": "2013-12-31T11:27:26.776+0000",
+                "id": "G8zqoYrqA6N"
+            },
+            {
+                "name": "Antenatal care",
+                "created": "2013-03-28T18:13:45.096+0000",
+                "lastUpdated": "2013-09-21T21:48:41.433+0000",
+                "id": "xudR3HPuRSZ"
+            },
+            {
+                "name": "Child Health ",
+                "created": "2013-03-09T16:02:28.491+0000",
+                "lastUpdated": "2013-12-31T11:28:12.412+0000",
+                "id": "Yp1g7obDL7h"
+            },
+            {
+                "name": "Immunization",
+                "created": "2013-03-09T16:08:13.078+0000",
+                "lastUpdated": "2013-12-16T15:48:39.492+0000",
+                "id": "vw7FV0jmKGr"
+            },
+            {
+                "name": "Nutrition",
+                "created": "2012-12-19T14:24:48.092+0000",
+                "lastUpdated": "2013-04-25T20:49:46.571+0000",
+                "id": "URLGBkk3P8A"
+            }
+        ]
+    },
+    {
+        "name": "HIV/AIDS , TB and Malaria",
+        "created": "2013-03-09T16:17:31.777+0000",
+        "lastUpdated": "2013-09-21T21:57:29.183+0000",
+        "description": "Indicators Related to HIV/AIDS",
+        "compulsory": false,
+        "id": "SASaKEavSG9",
+        "indicatorGroups": [
+            {
+                "name": "HIV/AIDS care and treatment",
+                "created": "2013-03-09T16:05:30.321+0000",
+                "lastUpdated": "2013-09-24T08:15:49.187+0000",
+                "id": "kGEWqAvHVtz"
+            },
+            {
+                "name": "Malaria",
+                "created": "2012-12-19T14:35:40.798+0000",
+                "lastUpdated": "2013-12-18T18:15:58.764+0000",
+                "id": "rqG9iIQppgX"
+            }
+        ]
+    }
+], "indicatorTypes": [
+    {
+        "name": "%",
+        "created": "2012-02-18T01:29:35.458+0000",
+        "lastUpdated": "2012-02-18T01:29:35.458+0000",
+        "factor": 100,
+        "number": false,
+        "id": "d6nhIQxHiLe"
+    },
+    {
+        "name": "per1K",
+        "created": "2012-02-18T01:29:35.458+0000",
+        "lastUpdated": "2012-02-18T01:29:35.458+0000",
+        "factor": 1000,
+        "number": false,
+        "id": "JbaBTD3mjuq"
+    },
+    {
+        "name": "per100K",
+        "created": "2012-02-18T01:29:35.458+0000",
+        "lastUpdated": "2012-02-18T01:29:35.458+0000",
+        "factor": 100000,
+        "number": false,
+        "id": "F2vrwzAiRMl"
+    },
+    {
+        "name": "Calculated Data Elements",
+        "created": "2012-04-24T09:22:30.265+0000",
+        "lastUpdated": "2012-04-24T09:22:30.265+0000",
+        "factor": 1,
+        "number": true,
+        "id": "ftrvO1fdxL1"
+    },
+    {
+        "name": "Factor of 1",
+        "created": "2013-12-15T16:38:42.457+0000",
+        "lastUpdated": "2013-12-15T16:38:57.858+0000",
+        "factor": 1,
+        "number": false,
+        "id": "ZayFJdni6jm"
     }
 ], "organisationUnitLevels": [
     {
