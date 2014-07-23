@@ -1,5 +1,6 @@
 #!/bin/sh
 
-curl -H "Content-Type: application/xml" -u admin:district -d @export_metaData.xml "http://localhost:8080/dhis2/api/metaData" -X POST -v && \
-curl -H "Content-Type: application/xml" -u admin:district -d @export_data.xml "http://localhost:8080/dhis2/api/dataValueSets" -X POST -v && \
+export META_DATA_URL="http://localhost:8080/dhis2/api/metaData" && \
+curl -H "Content-Type: application/json" -u admin:district -d @"metaData/baseMetaData.json" $META_DATA_URL && \
+curl -H "Content-Type: application/json" -u admin:district -d @"metaData/organisationUnits.json" $META_DATA_URL && \
 curl -X POST -u admin:district "http://localhost:8080/dhis2/api/resourceTables/analytics"

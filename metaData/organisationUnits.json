@@ -1,0 +1,189 @@
+{"created": "2014-07-23T09:23:48.749+0000", "organisationUnits": [
+    {
+        "name": "ng Federal Government",
+        "created": "2014-07-23T09:14:58.621+0000",
+        "lastUpdated": "2014-07-23T09:14:59.180+0000",
+        "shortName": "Fed Gov",
+        "parent": null,
+        "openingDate": "2000-01-01",
+        "active": false,
+        "level": 1,
+        "id": "JSicAgNLvk3"
+    },
+    {
+        "name": "ab Abia State",
+        "created": "2014-07-23T09:16:11.711+0000",
+        "lastUpdated": "2014-07-23T09:16:11.815+0000",
+        "shortName": "ab Abia State",
+        "parent": {
+            "name": "ng Federal Government",
+            "created": "2014-07-23T09:14:58.621+0000",
+            "lastUpdated": "2014-07-23T09:14:59.180+0000",
+            "id": "JSicAgNLvk3"
+        },
+        "openingDate": "2000-01-01",
+        "active": true,
+        "level": 2,
+        "id": "aWCAiwoqkth"
+    },
+    {
+        "name": "ab Aba North Local Government Area",
+        "created": "2014-07-23T09:16:53.523+0000",
+        "lastUpdated": "2014-07-23T09:16:53.601+0000",
+        "shortName": "ab Aba North Local Government Area",
+        "parent": {
+            "name": "ab Abia State",
+            "created": "2014-07-23T09:16:11.711+0000",
+            "lastUpdated": "2014-07-23T09:16:11.815+0000",
+            "id": "aWCAiwoqkth"
+        },
+        "openingDate": "2000-01-01",
+        "active": true,
+        "level": 3,
+        "id": "OPVNtTms0B4"
+    },
+    {
+        "name": "ab Ariaria Ward",
+        "created": "2014-07-23T09:17:39.769+0000",
+        "lastUpdated": "2014-07-23T09:17:39.929+0000",
+        "shortName": "Ariaria Ward",
+        "parent": {
+            "name": "ab Aba North Local Government Area",
+            "created": "2014-07-23T09:16:53.523+0000",
+            "lastUpdated": "2014-07-23T09:16:53.601+0000",
+            "id": "OPVNtTms0B4"
+        },
+        "openingDate": "2000-01-01",
+        "active": false,
+        "level": 4,
+        "id": "InxcZD1c3ge"
+    },
+    {
+        "name": "ab Goodness& Mercy",
+        "created": "2014-07-23T09:18:19.054+0000",
+        "lastUpdated": "2014-07-23T09:18:19.132+0000",
+        "shortName": "ab Goodness& Mercy",
+        "parent": {
+            "name": "ab Ariaria Ward",
+            "created": "2014-07-23T09:17:39.769+0000",
+            "lastUpdated": "2014-07-23T09:17:39.929+0000",
+            "id": "InxcZD1c3ge"
+        },
+        "openingDate": "2000-01-01",
+        "active": true,
+        "level": 5,
+        "id": "atgIJsYdgw5"
+    },
+    {
+        "name": "ab Ivory Hospital",
+        "created": "2014-07-23T09:19:02.401+0000",
+        "lastUpdated": "2014-07-23T09:19:02.446+0000",
+        "shortName": "Ivory Hosp",
+        "parent": {
+            "name": "ab Ariaria Ward",
+            "created": "2014-07-23T09:17:39.769+0000",
+            "lastUpdated": "2014-07-23T09:17:39.929+0000",
+            "id": "InxcZD1c3ge"
+        },
+        "openingDate": "2000-01-01",
+        "active": true,
+        "level": 5,
+        "id": "SAj4u4BDlRM"
+    },
+    {
+        "name": "ba Bauchi State",
+        "created": "2014-07-23T09:20:00.440+0000",
+        "lastUpdated": "2014-07-23T09:20:00.456+0000",
+        "shortName": "ba Bauchi State",
+        "parent": {
+            "name": "ng Federal Government",
+            "created": "2014-07-23T09:14:58.621+0000",
+            "lastUpdated": "2014-07-23T09:14:59.180+0000",
+            "id": "JSicAgNLvk3"
+        },
+        "openingDate": "2000-01-01",
+        "active": true,
+        "level": 2,
+        "id": "UPGGIbjvfYm"
+    },
+    {
+        "name": "ba Alkaleri Local Government Area",
+        "created": "2014-07-23T09:20:42.077+0000",
+        "lastUpdated": "2014-07-23T09:20:42.089+0000",
+        "shortName": "ba Alkaleri Local Government Area",
+        "parent": {
+            "name": "ba Bauchi State",
+            "created": "2014-07-23T09:20:00.440+0000",
+            "lastUpdated": "2014-07-23T09:20:00.456+0000",
+            "id": "UPGGIbjvfYm"
+        },
+        "openingDate": "2000-01-01",
+        "active": true,
+        "level": 3,
+        "id": "j3HSLKrkh0q"
+    },
+    {
+        "name": "ba Alkaleri West Ward",
+        "created": "2014-07-23T09:21:28.421+0000",
+        "lastUpdated": "2014-07-23T09:21:28.428+0000",
+        "shortName": "Alkaleri West Ward",
+        "parent": {
+            "name": "ba Alkaleri Local Government Area",
+            "created": "2014-07-23T09:20:42.077+0000",
+            "lastUpdated": "2014-07-23T09:20:42.089+0000",
+            "id": "j3HSLKrkh0q"
+        },
+        "openingDate": "2000-01-01",
+        "active": false,
+        "level": 4,
+        "id": "OUf2UsQPpwT"
+    },
+    {
+        "name": "ba Alkaleri Dispensary",
+        "created": "2014-07-23T09:22:03.867+0000",
+        "lastUpdated": "2014-07-23T09:22:03.873+0000",
+        "shortName": "Alkaleri Disp",
+        "parent": {
+            "name": "ba Alkaleri West Ward",
+            "created": "2014-07-23T09:21:28.421+0000",
+            "lastUpdated": "2014-07-23T09:21:28.428+0000",
+            "id": "OUf2UsQPpwT"
+        },
+        "openingDate": "2000-01-01",
+        "active": true,
+        "level": 5,
+        "id": "CIssCjodb5S"
+    },
+    {
+        "name": "ba Alkaleri General Hospital",
+        "created": "2014-07-23T09:22:31.148+0000",
+        "lastUpdated": "2014-07-23T09:22:31.154+0000",
+        "shortName": "Alkaleri Gen Hosp",
+        "parent": {
+            "name": "ba Alkaleri West Ward",
+            "created": "2014-07-23T09:21:28.421+0000",
+            "lastUpdated": "2014-07-23T09:21:28.428+0000",
+            "id": "OUf2UsQPpwT"
+        },
+        "openingDate": "2000-01-01",
+        "active": true,
+        "level": 5,
+        "id": "GUi74ra8SQd"
+    },
+    {
+        "name": "ba Alkaleri Maternal and Child Health Clinic",
+        "created": "2014-07-23T09:22:56.256+0000",
+        "lastUpdated": "2014-07-23T09:22:56.267+0000",
+        "shortName": "Alkaleri MCH HC",
+        "parent": {
+            "name": "ba Alkaleri West Ward",
+            "created": "2014-07-23T09:21:28.421+0000",
+            "lastUpdated": "2014-07-23T09:21:28.428+0000",
+            "id": "OUf2UsQPpwT"
+        },
+        "openingDate": "2000-01-01",
+        "active": true,
+        "level": 5,
+        "id": "ZY1byAKtDnU"
+    }
+]}

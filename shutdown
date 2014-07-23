@@ -1,0 +1,3 @@
+#!/bin/sh
+
+./dhis2-server/bin/shutdown.sh

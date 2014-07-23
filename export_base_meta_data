@@ -1,0 +1,43 @@
+#!/bin/sh
+
+function usage
+{
+	echo "usage: ./export_base_meta_data username password url"
+}
+
+##### Main
+if [ "$1" == "" ]; then
+	usage
+	exit 1
+fi
+
+if [ "$2" == "" ]; then
+	usage
+	exit 1
+fi
+
+if [ "$3" == "" ]; then
+	usage
+	exit 1
+fi
+
+curl -H "Accept: application/json" -u $1:$2 "$3/api/metaData?assumeTrue=false\
+&organisationUnitLevels=true\
+&categories=true\
+&categoryCombos=true\
+&categoryOptions=true\
+&categoryOptionCombos=true\
+&dataDictionaries=true\
+&dataElementGroupSets=true\
+&dataElementGroups=true\
+&dataElements=true\
+&userGroups=true\
+&userRoles=true\
+&validationRuleGroups=true\
+&validationRules=true\
+" > ./metaData/baseMetaData.json
+
+## Don't try to export all Nigeria organisationUnits...it's very very large
+#curl -H "Accept: application/json" -u $1:$2 "$3/api/metaData?assumeTrue=false\
+#&organisationUnits=true\
+#" > ./metaData/organisationUnits.json
