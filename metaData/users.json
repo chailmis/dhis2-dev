@@ -1,0 +1,109 @@
+{"created": "2014-07-23T12:44:03.510+0000", "users": [
+    {
+        "name": "admin admin",
+        "created": "2014-07-23T12:03:24.207+0000",
+        "lastUpdated": "2014-07-23T12:11:34.388+0000",
+        "surname": "admin",
+        "firstName": "admin",
+        "phoneNumber": "",
+        "userCredentials": {
+            "code": "admin",
+            "name": "admin admin",
+            "created": "2014-07-23T12:03:24.969+0000",
+            "username": "admin",
+            "passwordLastUpdated": "2014-07-23T12:03:24.969+0000",
+            "userAuthorityGroups": [
+                {
+                    "name": "Superuser",
+                    "created": "2012-12-17T09:08:34.641+0000",
+                    "lastUpdated": "2014-07-23T12:04:38.148+0000",
+                    "id": "eAr0uXXYZIR"
+                }
+            ],
+            "lastLogin": "2014-07-23T12:44:03.391+0000",
+            "selfRegistered": false,
+            "disabled": false
+        },
+        "organisationUnits": [
+            {
+                "name": "ng Federal Government",
+                "created": "2014-07-23T09:14:58.621+0000",
+                "lastUpdated": "2014-07-23T09:14:59.180+0000",
+                "id": "JSicAgNLvk3"
+            }
+        ],
+        "id": "CrVAwLvd8ua"
+    },
+    {
+        "name": "Android 1 ThoughtWorks",
+        "created": "2014-07-23T12:42:44.141+0000",
+        "lastUpdated": "2014-07-23T12:42:44.141+0000",
+        "surname": "ThoughtWorks",
+        "firstName": "Android 1",
+        "phoneNumber": "",
+        "userCredentials": {
+            "code": "android_1",
+            "name": "Android 1 ThoughtWorks",
+            "created": "2014-07-23T12:42:43.993+0000",
+            "username": "android_1",
+            "password": "0e5e7b4834e3acc2b7b9e07e2deae87c",
+            "passwordLastUpdated": "2014-07-23T12:42:43.993+0000",
+            "userAuthorityGroups": [
+                {
+                    "name": "Data Entry Clerk",
+                    "created": "2013-03-01T13:28:45.244+0000",
+                    "lastUpdated": "2014-07-23T12:04:38.560+0000",
+                    "id": "dRIFc7iCZC7"
+                }
+            ],
+            "lastLogin": "2014-07-23T12:42:43.993+0000",
+            "selfRegistered": false,
+            "disabled": false
+        },
+        "organisationUnits": [
+            {
+                "name": "ab Goodness& Mercy",
+                "created": "2014-07-23T09:18:19.054+0000",
+                "lastUpdated": "2014-07-23T12:05:46.533+0000",
+                "id": "atgIJsYdgw5"
+            }
+        ],
+        "id": "fwVc77JfbeW"
+    },
+    {
+        "name": "Android 2 ThoughtWorks",
+        "created": "2014-07-23T12:43:19.961+0000",
+        "lastUpdated": "2014-07-23T12:43:19.961+0000",
+        "surname": "ThoughtWorks",
+        "firstName": "Android 2",
+        "phoneNumber": "",
+        "userCredentials": {
+            "code": "android_2",
+            "name": "Android 2 ThoughtWorks",
+            "created": "2014-07-23T12:43:19.954+0000",
+            "username": "android_2",
+            "password": "43a316451aa82edfd465118283629c8b",
+            "passwordLastUpdated": "2014-07-23T12:43:19.954+0000",
+            "userAuthorityGroups": [
+                {
+                    "name": "Data Entry Clerk",
+                    "created": "2013-03-01T13:28:45.244+0000",
+                    "lastUpdated": "2014-07-23T12:04:38.560+0000",
+                    "id": "dRIFc7iCZC7"
+                }
+            ],
+            "lastLogin": "2014-07-23T12:43:19.954+0000",
+            "selfRegistered": false,
+            "disabled": false
+        },
+        "organisationUnits": [
+            {
+                "name": "ba Alkaleri Dispensary",
+                "created": "2014-07-23T09:22:03.867+0000",
+                "lastUpdated": "2014-07-23T09:22:03.873+0000",
+                "id": "CIssCjodb5S"
+            }
+        ],
+        "id": "jmkHE0606cX"
+    }
+]}

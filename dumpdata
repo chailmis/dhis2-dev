@@ -1,7 +1,10 @@
 #!/bin/sh
 
 export META_DATA_URL="http://localhost:8080/dhis2/api/metaData" && \
-curl -H "Content-Type: application/json" -u admin:district -d @"metaData/baseMetaData.json" $META_DATA_URL && \
-curl -H "Content-Type: application/json" -u admin:district -d @"metaData/organisationUnits.json" $META_DATA_URL && \
-curl -H "Content-Type: application/json" -u admin:district -d @"metaData/dataSets.json" $META_DATA_URL && \
-curl -X POST -u admin:district "http://localhost:8080/dhis2/api/resourceTables/analytics"
+rm -f dump.log && \
+curl -H "Content-Type: application/json" -u admin:district "http://localhost:8080/dhis2/api/resources" -X GET > /dev/null && \
+curl -H "Content-Type: application/json" -u admin:district -d @"metaData/baseMetaData.json" $META_DATA_URL >> dump.log && \
+curl -H "Content-Type: application/json" -u admin:district -d @"metaData/organisationUnits.json" $META_DATA_URL >> dump.log && \
+curl -H "Content-Type: application/json" -u admin:district -d @"metaData/dataSets.json" $META_DATA_URL >> dump.log && \
+curl -H "Content-Type: application/json" -u admin:district -d @"metaData/users.json" $META_DATA_URL >> dump.log && \
+curl -X POST -u admin:district "http://localhost:8080/dhis2/api/resourceTables/analytics" >> dump.log

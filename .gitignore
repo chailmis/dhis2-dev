@@ -4,3 +4,4 @@
 *.war
 dhis2-lmis.sql
 dhis2-server
+*.log
