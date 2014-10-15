@@ -1,9 +1,6 @@
 #!/bin/sh
 
-sudo -u postgres psql -c "CREATE ROLE dhis2 WITH ENCRYPTED PASSWORD 'dhis2';"
-sudo -u postgres psql -c "ALTER USER dhis2 LOGIN;"
-sudo -u postgres psql -c "DROP DATABASE dhis2;"
-sudo -u postgres createdb -O postgres dhis2
+./init-db
 
 # add-apt-repository -y ppa:webupd8team/java
 # apt-get update
